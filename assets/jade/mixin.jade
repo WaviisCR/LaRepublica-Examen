@@ -1,5 +1,5 @@
 mixin titulo(tittle, subtitulo)
-	.col-md-offset-2.col-md-14
+	.encabezado
 		h3= tittle
 		p= subtitulo
 			span
@@ -35,29 +35,6 @@ mixin cdrprincipal(fecha, headline, call, tittlegrey, comentario)
 		p= fecha
 		h3= headline 
 		+cdrgrey(call, tittlegrey, comentario)
-<<<<<<< HEAD
-=======
-	.col-md-4
-		.blog-single
-			p= fecha
-			h3= headline 
-			+cdrgrey(call, tittlegrey, comentario)
->>>>>>> 11362eeb8133dcc0d0579172208d66f16a95fefc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 mixin img-avatar(call)
 	case call
@@ -72,3 +49,4 @@ mixin banner-columnistas(call, name, tittle)
 		.info
 			h4=name
 			span=tittle
+
