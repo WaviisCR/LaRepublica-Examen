@@ -24,75 +24,51 @@ mixin photo(call)
 				img(src="assets/image/img-columnistas.jpg")
 
 mixin cdrgrey(call, tittlegrey, comentario)
-	.media.bloger
+	.media.singlegrey
 		+photo(call)
 		.media-body
 			p.media-heading= tittlegrey
 			p.media-heading= comentario
 
 mixin cdrprincipal(fecha, headline, call, tittlegrey, comentario)
-<<<<<<< HEAD
 	.single.pull-right.clearfix
 		p= fecha
 		h3= headline 
 		+cdrgrey(call, tittlegrey, comentario)
+<<<<<<< HEAD
 =======
 	.col-md-4
 		.blog-single
 			p= fecha
 			h3= headline 
 			+cdrgrey(call, tittlegrey, comentario)
+>>>>>>> 11362eeb8133dcc0d0579172208d66f16a95fefc
 
-mixin photo(call)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mixin img-avatar(call)
 	case call
-		when 'uno'
-			a.media-left(href="#")
-				img.media-object(src="assets/image/blog_avatar_01.jpg")
-		when 'dos'
-			a.media-left(href="#")
-				img(src="assets/image/blog_avatar_02.jpg")
-		when 'tres'
-			a.media-left(href="#")
-				img(src="assets/image/blog_avatar_03.jpg")
-		when 'cuatro'
-			a.media-left(href="#")
-				img(src="assets/image/img_author_columnista.jpg")
-		when 'cinco'
-			a.media-left(href="#")
-				img(src="assets/image/img-columnistas.jpg")
-
-mixin cdrgrey(call, tittlegrey, comentario)
-	.media.bloger
-		+photo(call)
-		.media-body
-			p.media-heading= tittlegrey
-			p.media-heading= comentario
-
-mixin cdroffset(fecha, headline, call, tittlegrey, comentario)
-	.col-md-offset-2.col-md-4
-		.blog-single
-			p= fecha
-			h3= headline 
-			+cdrgrey(call, tittlegrey, comentario)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-mixin banner-columnistas()
-	
->>>>>>> 40d9071a8c5ec651521ec5b34a743d3770ef2798
+		when "a-1"
+			img.MVLL(src="assets/image/img-columnistas.jpg", alt="avatar-columnista")
+		when "a-2"
+			img(src="assets/image/img_blogueros.jpg", alt="avatar-columnista")
+mixin banner-columnistas(call, name, tittle)
+	.columnista.pull-left
+		.avatar
+			+img-avatar(call)
+		.info
+			h4=name
+			span=tittle
