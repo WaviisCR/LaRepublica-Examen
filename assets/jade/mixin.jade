@@ -35,3 +35,18 @@ mixin cdrprincipal(fecha, headline, call, tittlegrey, comentario)
 		p= fecha
 		h3= headline 
 		+cdrgrey(call, tittlegrey, comentario)
+
+mixin img-avatar(call)
+	case call
+		when "a-1"
+			img.MVLL(src="assets/image/img-columnistas.jpg", alt="avatar-columnista")
+		when "a-2"
+			img(src="assets/image/img_blogueros.jpg", alt="avatar-columnista")
+mixin banner-columnistas(call, name, tittle)
+	.columnista.pull-left
+		.avatar
+			+img-avatar(call)
+		.info
+			h4=name
+			span=tittle
+

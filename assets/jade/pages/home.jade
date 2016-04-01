@@ -19,11 +19,20 @@ html(lang='es-PE')
 						.col-md-8
 							img(src="assets/image/img_grid_secundario.jpg", alt="titulares")
 							img(src="assets/image/img_grid_secundario.jpg", alt="titulares")
-					.row
-						.col-md-16.text-center
+					.row#columnistas
+						.col-md-16.text-center.clearfix
 							.columnistas
 								img(src="assets/image/nota_galeria_border.png", alt="border")
 								.tittle
 									h3 COLUMNISTAS
-
+								+banner-columnistas("a-1", "Mario Vargas LLosa", " Lorem ipsum dolor sit")
+								+banner-columnistas("a-2", "Alavrez Rodrich", " Lorem ipsum dolor sit")
+								+banner-columnistas("a-1", "Mario Vargas LLosa", " Lorem ipsum dolor sit")
+								+banner-columnistas("a-2", "Alavrez Rodrich", " Lorem ipsum dolor sit")
+								+banner-columnistas("a-1", "Mario Vargas LLosa", " Lorem ipsum dolor sit")
+								+banner-columnistas("a-2", "Alavrez Rodrich", " Lorem ipsum dolor sit")
+					.row#noticias
+						.col-md-5
+						.col-md-5
+						.col-md-6
 				.col-md-2
