@@ -6,7 +6,56 @@ html(lang='es-PE')
 		include ../variables.jade
 		include ../mixin.jade
 		include ../layout/header.jade
+		section.columnistas
+			.row
+				.col-md-2
+					img(src="assets/image/banner-aside-home.jpg")
+				.col-md-12
+					+titulo('Columnistas', 'LO ULTIMO EN COLUMNISTAS')
+					.row
+						+cdroffset('Lunes,14 de julio de 2015', 'El gol de la muerte', 'cuatro', 'Augusto Álvarez Rodrich', 'Claro y Directo')
+						+cdrprincipal('Lunes,14 de julio de 2015', 'Dios ha muerto... tengo las manos cubiertas de sangre', 'cinco', 'Mirko Laver', 'Observador')
+						+cdrprincipal('Lunes,14 de julio de 2015', 'Cual es tu queso favorito?', 'cuatro', 'Aldo Miyashiro', 'Chino de mi barrio')
+					.row
+						+cdroffset('Lunes,14 de julio de 2015', 'El gol de la muerte', 'cuatro', 'Francisco Duran', 'Tiro al blanco')
+						+cdrprincipal('Lunes,14 de julio de 2015', 'Dios ha muerto... tengo las manos cubiertas de sangre', 'cinco', 'Humberto Campodónico', 'Cristal de Mira')
+						+cdrprincipal('Lunes,14 de julio de 2015', 'Cual es tu queso favorito?', 'cuatro', 'Javier Ágreda', 'Jaque Perpetuo')
+					.row
+						+cdroffset('Lunes,14 de julio de 2015', 'El gol de la muerte', 'cuatro', 'Augusto Álvarez Rodrich', 'Claro y Directo')
+						+cdrprincipal('Lunes,14 de julio de 2015', 'Dios ha muerto... tengo las manos cubiertas de sangre', 'cinco', 'Mirko Laver', 'Observador')
+						+cdrprincipal('Lunes,14 de julio de 2015', 'Cual es tu queso favorito?', 'cuatro', 'Aldo Miyashiro', 'Chino de mi barrio')
+					.row
+						+cdroffset('Lunes,14 de julio de 2015', 'El gol de la muerte', 'cuatro', 'Francisco Duran', 'Tiro al blanco')
+						+cdrprincipal('Lunes,14 de julio de 2015', 'Dios ha muerto... tengo las manos cubiertas de sangre', 'cinco', 'Humberto Campodónico', 'Cristal de Mira')
+						+cdrprincipal('Lunes,14 de julio de 2015', 'Cual es tu queso favorito?', 'cuatro', 'Javier Ágreda', 'Jaque Perpetuo')
+				.col-md-2
+					img(src="assets/image/banner-aside-home.jpg")
+				
 
-
-
+				a.btn-red.text-center(href="#") TODAS LAS COLUMNAS
+		section
+			.container
+				.row
+					+titulo(tittle,'LO ULTIMO EN COLUMNISTAS')
+					.nav-columnistas
+						nav
+							ul.pagination
+								li.page-item
+									a.page-link TODOS 
+								li.page-item
+									a.page-link ABC
+								li.page-item
+									a.page-link DEF
+								li.page-item
+									a.page-link GHI
+								li.page-item
+									a.page-link JKL
+								li.page-item
+									a.page-link MNO
+								li.page-item
+									a.page-link PQRS
+								li.page-item
+									a.page-link TUV
+								li.page-item
+									a.page-link WXYZ
 		include ../layout/footer.jade
