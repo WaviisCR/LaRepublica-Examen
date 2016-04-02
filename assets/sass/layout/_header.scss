@@ -114,6 +114,9 @@
 		}
 	}
 }
+a:hover{
+	text-decoration: none;
+}
 .editorial {
 	.box-editorial {
 		border: 1px solid $silver;
@@ -128,10 +131,12 @@
     			margin-left: 20px;
     			background: white;
     			text-align: center;
+    			color: $black;
     			p {
     				font-weight: 600;
     				margin-bottom: 0;
     				margin-top: 4px;
+    				text-decoration: none;
     				&:nth-child(2) {
     					font-style: italic;
     					font-weight: normal;
@@ -148,4 +153,28 @@
     		}
 		}
     }
+}
+.menu-magazine {
+	padding: 0;
+    margin-left: 1%;
+	.nav-magazine {
+		margin: 1% 0;
+    	padding: 0.3% 0;
+    	background: $dark-red;
+    	border-radius: 5px;
+		a {
+			margin: 0.45em;
+    		color: white;
+    		font-size: 0.9em;
+			font-weight: 600;
+			transition: 0.5s;
+			&:hover {
+				color: $black;
+				text-decoration: none;
+			}
+    		&:nth-child(1) {
+    			margin-left: 0.7em;
+    		}
+		}
+	}
 }

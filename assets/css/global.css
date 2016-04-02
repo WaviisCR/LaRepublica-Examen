@@ -105,6 +105,8 @@ h3, h4, h5, h6 {
         font-size: 0.9em;
         font-weight: 600;
         margin-top: 6%; }
+  .header a:hover {
+    text-decoration: none; }
   .header .editorial .box-editorial {
     border: 1px solid silver;
     background: #2C3238; }
@@ -116,11 +118,13 @@ h3, h4, h5, h6 {
       border-radius: 5px;
       margin-left: 20px;
       background: white;
-      text-align: center; }
+      text-align: center;
+      color: black; }
       .header .editorial .box-editorial .box-corrupcion p {
         font-weight: 600;
         margin-bottom: 0;
-        margin-top: 4px; }
+        margin-top: 4px;
+        text-decoration: none; }
         .header .editorial .box-editorial .box-corrupcion p:nth-child(2) {
           font-style: italic;
           font-weight: normal;
@@ -130,5 +134,25 @@ h3, h4, h5, h6 {
         float: right;
         margin-top: -20%;
         margin-right: -4%; }
+
+.menu-magazine {
+  padding: 0;
+  margin-left: 1%; }
+  .menu-magazine .nav-magazine {
+    margin: 1% 0;
+    padding: 0.3% 0;
+    background: #D30505;
+    border-radius: 5px; }
+    .menu-magazine .nav-magazine a {
+      margin: 0.45em;
+      color: white;
+      font-size: 0.9em;
+      font-weight: 600;
+      transition: 0.5s; }
+      .menu-magazine .nav-magazine a:hover {
+        color: black;
+        text-decoration: none; }
+      .menu-magazine .nav-magazine a:nth-child(1) {
+        margin-left: 0.7em; }
 
 /*# sourceMappingURL=global.css.map */
