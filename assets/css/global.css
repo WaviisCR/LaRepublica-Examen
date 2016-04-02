@@ -8,6 +8,19 @@ h1, h2 {
 h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif; }
 
+/*UTILCLASS*/
+.w-100 {
+  width: 100%; }
+
+.border-silver {
+  border: silver 1px solid; }
+
+.bckg-white {
+  background-color: white; }
+
+.bckg-dots {
+  background-image: url(../assets/image/archive-sidebar-bg.jpg) repeat-x; }
+
 .banner {
   background-color: #F2F2F2;
   padding: 1% 0 0.4%;
