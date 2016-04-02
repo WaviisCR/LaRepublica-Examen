@@ -6,6 +6,7 @@ html(lang='es-PE')
 		include ../variables.jade
 		include ../mixin.jade
 		include ../layout/header.jade
+		//HOME//
 		section#home
 			.row
 				.col-md-2
@@ -19,6 +20,7 @@ html(lang='es-PE')
 						.col-md-8
 							img(src="assets/image/img_grid_secundario.jpg", alt="titulares")
 							img(src="assets/image/img_grid_secundario.jpg", alt="titulares")
+					//COLUMNISTAS//
 					.row#columnistas
 						.col-md-16.text-center.clearfix
 							.columnistas
@@ -31,13 +33,111 @@ html(lang='es-PE')
 								+banner-columnistas("a-2", "Alavrez Rodrich", " Lorem ipsum dolor sit")
 								+banner-columnistas("a-1", "Mario Vargas LLosa", " Lorem ipsum dolor sit")
 								+banner-columnistas("a-2", "Alavrez Rodrich", " Lorem ipsum dolor sit")
+					//NOTICIAS//
 					.row#noticias
-						.col-md-5
-							.noticia
-								h3
-								.img-noticia
-									img(src="", alt="")
-								h3
-						.col-md-5
-						.col-md-6
+						.col-md-10
+							.row.noticias
+								.col-md-8
+									+noticia("TITULO DE NOTICIA", "img-not-1", "lorem ipsum dolor")
+									+noticia("TITULO DE NOTICIA", "img-not-1", "lorem ipsum dolor")
+								.col-md-8
+									+noticia("TITULO DE NOTICIA", "img-not-2", "lorem ipsum dolor")
+									+noticia("TITULO DE NOTICIA", "img-not-2", "lorem ipsum dolor")
+							//ULTIMAS//
+							.row.ultimas-noticias.col-md-16
+								+titulo(tittle, 'Ultimas noticias ')
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+								hr
+								+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
+						//ASIDE: PUBLICIDAD Y OTROS ENLACES//
+						aside.col-md-6
+							.publicidad
+								img.w-100(src="assets/image/banner-aside-home.jpg")
+							.suscribirse.bckg-dots
+								.backg-white
+									img(src="assets/image/img_sucribe.png", alt="")
+									span Suscribete
+									p a nuestro boletin
+									input
+									button.btn Suscribirse
+							.aweita.border-silver.text-center
+								.logo
+									img(src="assets/image/logo_aweita.jpg", alt="")
+								+img-aweita("aw-1", "Lorem ipsum dolor sit amet, consectetur adipisicing elita ducimus officiis provident, placeat conue ipsum, aut nostrum odonsequuntur")
+								+img-aweita("aw-1", "Lorem ipsum dolor sit amet, consectetur adipisicing elita ducimus officiis provident, placeat conue ipsum, aut nostrum odonsequuntur")
+								+img-aweita("aw-1", "Lorem ipsum dolor sit amet, consectetur adipisicing elita ducimus officiis provident, placeat conue ipsum, aut nostrum odonsequuntur")
+								+img-aweita("aw-1", "Lorem ipsum dolor sit amet, consectetur adipisicing elita ducimus officiis provident, placeat conue ipsum, aut nostrum odonsequuntur")
+								.button Más en 
+									a(href="https://www.aweita.pe") Aweita.pe
+							.aside-section
+								+aside-section("FOTOS DESTACADAS")
+								.destacada
+									img.w-100(src="", alt="")
+
 				.col-md-2
