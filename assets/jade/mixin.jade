@@ -89,3 +89,20 @@ mixin ultimas(date, titulo, call, subtitulo)
 					i.fa.fa-twitter
 				a
 					i.fa.fa-google-plus
+//ASIDE//
+mixin img-aweita(call, content)
+	case call
+		when "aw-1"
+			.img-aweita
+				img.pull-left(src="assets/image/img_aweita.jpg", alt="")
+				.noticia
+					p=content
+		when "aw-2"
+			.img-aweita
+				img.pull-left(src="assets/image/img_aweita.jpg", alt="")
+				.noticia
+					p=content
+mixin aside-section(content)
+	img.w-100(src="assets/image/nota_galeria_border.png", alt="border")
+	.tittle
+		h5=content
