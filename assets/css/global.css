@@ -8,6 +8,19 @@ h1, h2 {
 h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif; }
 
+/*UTILCLASS*/
+.w-100 {
+  width: 100%; }
+
+.border-silver {
+  border: silver 1px solid; }
+
+.bckg-white {
+  background-color: white; }
+
+.bckg-dots {
+  background-image: url(../assets/image/archive-sidebar-bg.jpg) repeat-x; }
+
 .banner {
   background-color: #F2F2F2;
   padding: 1% 0 0.4%;
@@ -80,7 +93,7 @@ h3, h4, h5, h6 {
       .header .a-domingo a .box-domingo .text-domingo {
         font-size: 0.8em;
         font-weight: 600;
-        background: red;
+        background: #D30505;
         width: 80px;
         padding: 5px;
         position: absolute;
@@ -92,18 +105,31 @@ h3, h4, h5, h6 {
         font-size: 0.9em;
         font-weight: 600;
         margin-top: 6%; }
-    .header .a-domingo a .box-editorial {
+  .header .editorial .box-editorial {
+    border: 1px solid silver;
+    background: #2C3238; }
+    .header .editorial .box-editorial .img-editorial {
+      float: left;
+      margin: 1%; }
+    .header .editorial .box-editorial .box-corrupcion {
       border: 1px solid silver;
-      background: #2C3238; }
-      .header .a-domingo a .box-editorial .img-editorial {
-        float: left;
-        margin: 1%; }
-      .header .a-domingo a .box-editorial .box-corrupcion {
-        border: 1px solid silver;
-        border-radius: 5px;
-        margin-left: 20px;
-        background: white;
-        text-align: center; }
+      border-radius: 5px;
+      margin-left: 20px;
+      background: white;
+      text-align: center; }
+      .header .editorial .box-editorial .box-corrupcion p {
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-top: 4px; }
+        .header .editorial .box-editorial .box-corrupcion p:nth-child(2) {
+          font-style: italic;
+          font-weight: normal;
+          margin: 0 0 10px;
+          font-size: 0.9em; }
+      .header .editorial .box-editorial .box-corrupcion .img-autor {
+        float: right;
+        margin-top: -20%;
+        margin-right: -4%; }
 
 .columnistas-body .img-aside {
   width: 100%; }

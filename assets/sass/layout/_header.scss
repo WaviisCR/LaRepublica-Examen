@@ -96,7 +96,7 @@
     			.text-domingo {
     				font-size: 0.8em;
     				font-weight: 600;
-    				background: red;
+    				background: $dark-red;
     				width: 80px;
     				padding: 5px;
     				position: absolute;
@@ -111,23 +111,41 @@
     				font-weight: 600;
     				margin-top: 6%;
     			}
-			}
-			.box-editorial {
-				border: 1px solid $silver;
-    			background: #2C3238;
-    			.img-editorial {
-    				float: left;
-    				margin: 1%;
-    			}
-    			.box-corrupcion {
-    				border: 1px solid silver;
-    				border-radius: 5px;
-    				margin-left: 20px;
-    				background: white;
-    				text-align: center;
-    			}
-			}
-
 		}
 	}
+}
+.editorial {
+	.box-editorial {
+		border: 1px solid $silver;
+    	background: #2C3238;
+    	.img-editorial {
+    		float: left;
+    		margin: 1%;
+    	}
+    		.box-corrupcion {
+    			border: 1px solid $silver;
+    			border-radius: 5px;
+    			margin-left: 20px;
+    			background: white;
+    			text-align: center;
+    			p {
+    				font-weight: 600;
+    				margin-bottom: 0;
+    				margin-top: 4px;
+    				&:nth-child(2) {
+    					font-style: italic;
+    					font-weight: normal;
+    					margin: 0 0 10px;
+                        font-size: 0.9em;
+					}
+    			}
+    			.img-autor {
+    				float: right;
+    				margin-top: -20%;
+    				margin-right: -4%;
+
+    			}
+    		}
+		}
+    }
 }
