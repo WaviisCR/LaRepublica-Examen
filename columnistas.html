@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Republica</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,300" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="assets/css/dist/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/dist/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/dist/slick.css">
     <link rel="stylesheet" type="text/css" href="assets/css/dist/slick-theme.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/global.css">
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -21,176 +22,644 @@
   </head>
   <body>
     <div class="banner">
-      <div class="row">
-        <div class="col-md-12 col-md-offset-2"><a href="http://www.entel.pe/"><img src="assets/image/banner_top.jpg"></a>
-          <div class="row">
-            <div class="col-md-4"></div>
+      <div class="row box-banner">
+        <div class="col-md-12 col-md-offset-2"><a href="http://www.entel.pe/" class="banner-top"><img src="assets/image/banner_top.jpg"></a>
+          <div class="row list-header">
+            <div class="col-md-7 box-nav">
+              <div class="nav"><a href="#">LIBRO.PE</a><a href="#">ELPOPULAR.PE</a><a href="#">FUNDACIÓN GUSTAVO MOHME LLONA</a></div>
+            </div>
+            <div class="col-md-3 col-md-offset-1"><a href="#" class="suscribete">SUSCRÍBETE AL BOLETÍN</a></div>
+            <div class="col-md-3 redes"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-google"></i></a><a href="#"><i class="fa fa-envelope"></i></a><i class="fa fa-rss"></i></div>
+            <div class="col-md-2 search"><a href="#">BUSCAR <i class="fa fa-search"></i></a></div>
           </div>
         </div>
       </div>
     </div>
-    <section class="columnistas">
+    <div class="header">
+      <div class="row box-title">
+        <div class="col-md-12 col-md-offset-2">
+          <div class="row">
+            <div class="col-md-5"><a href="#"><img src="assets/image/logo-la-republica.jpg" class="republica"></a></div>
+            <div class="col-md-5 col-md-offset-1 a-domingo"><a href="#">
+                <div class="box-domingo">
+                  <p class="text-domingo">DOMINGO</p>
+                  <p class="autor">HABLA LA LIDERESA DEL NACIONALISMO</p>
+                </div></a></div>
+            <div class="col-md-5">
+              <div class="box-editorial"><img src="assets/image/img_editorial_text.jpg" class="img-editorial">
+                <div class="box-corrupcion">
+                  <p>La corrupción, los origenes</p>
+                  <p>por: Gustavo Mohme Llona</p><img src="assets/image/img_author.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-16">
+                <div class="nav"><a href="#">POLÍTICA</a><a href="#">ECONOMÍA</a><a href="#">SOCIEDAD</a><a href="#">ELECC. REGIONALES</a><a href="#">DEPORTES</a><a href="#">CHAMPIOS L.</a><a href="#">ESPECTÁCULOS</a><a href="#">ED. IMPRESA</a><a href="#">REGIONALES</a><a href="#">MÁS SECCIONES<span class="fa fa-angle-down"></span></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columnistas-body">
       <div class="row">
         <div class="col-md-2"><img src="assets/image/banner-aside-home.jpg"></div>
-        <div class="col-md-12">
-              <div class="encabezado">
-                <h3>Columnistas</h3>
-                <p>LO ULTIMO EN COLUMNISTAS<span><img src="assets/image/double-arrow-bottom.png"></span></p>
-              </div>
-              <div class="single pull-right clearfix">
-                <p>Lunes,14 de julio de 2015</p>
-                <h3>El gol de la muerte</h3>
-                    <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
-                      <div class="media-body">
-                        <p class="media-heading">Augusto Álvarez Rodrich</p>
-                        <p class="media-heading">Claro y Directo</p>
-                      </div>
-                    </div>
-              </div>
-              <div class="single pull-right clearfix">
-                <p>Lunes,14 de julio de 2015</p>
-                <h3>Dios ha muerto... tengo las manos cubiertas de sangre</h3>
-                    <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
-                      <div class="media-body">
-                        <p class="media-heading">Mirko Laver</p>
-                        <p class="media-heading">Observador</p>
-                      </div>
-                    </div>
-              </div>
-              <div class="single pull-right clearfix">
-                <p>Lunes,14 de julio de 2015</p>
-                <h3>Cual es tu queso favorito?</h3>
-                    <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
-                      <div class="media-body">
-                        <p class="media-heading">Aldo Miyashiro</p>
-                        <p class="media-heading">Chino de mi barrio</p>
-                      </div>
-                    </div>
-              </div>
-          <div class="row">
-                <div class="single pull-right clearfix">
-                  <p>Lunes,14 de julio de 2015</p>
-                  <h3>El gol de la muerte</h3>
-                      <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
-                        <div class="media-body">
-                          <p class="media-heading">Francisco Duran</p>
-                          <p class="media-heading">Tiro al blanco</p>
-                        </div>
-                      </div>
+        <div class="col-md-12"><img src="assets/image/banner-header.jpg">
+          <div class="columnista">
+                <div class="encabezado">
+                  <h3>Columnistas</h3>
+                  <p>LO ULTIMO EN COLUMNISTAS<span><img src="assets/image/double-arrow-bottom.png"></span></p>
                 </div>
-                <div class="single pull-right clearfix">
-                  <p>Lunes,14 de julio de 2015</p>
-                  <h3>Dios ha muerto... tengo las manos cubiertas de sangre</h3>
-                      <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+            <div class="contenedor-columnista clearfix">
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>El gol de la muerte</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
                         <div class="media-body">
-                          <p class="media-heading">Humberto Campodónico</p>
-                          <p class="media-heading">Cristal de Mira</p>
+                          <p class="media-heading">Augusto Ávarez Rodrich</p>
+                          <p class="media-heading">Claro y directo</p>
                         </div>
-                      </div>
-                </div>
-                <div class="single pull-right clearfix">
-                  <p>Lunes,14 de julio de 2015</p>
-                  <h3>Cual es tu queso favorito?</h3>
-                      <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
-                        <div class="media-body">
-                          <p class="media-heading">Javier Ágreda</p>
-                          <p class="media-heading">Jaque Perpetuo</p>
-                        </div>
-                      </div>
-                </div>
-          </div>
-          <div class="row">
-                <div class="single pull-right clearfix">
-                  <p>Lunes,14 de julio de 2015</p>
-                  <h3>El gol de la muerte</h3>
-                      <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
-                        <div class="media-body">
-                          <p class="media-heading">Augusto Álvarez Rodrich</p>
-                          <p class="media-heading">Claro y Directo</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="single pull-right clearfix">
-                  <p>Lunes,14 de julio de 2015</p>
-                  <h3>Dios ha muerto... tengo las manos cubiertas de sangre</h3>
-                      <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+                  </div>
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>Dios ha muerto... tengo las manos cubiertas de sangre</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
                         <div class="media-body">
                           <p class="media-heading">Mirko Laver</p>
                           <p class="media-heading">Observador</p>
                         </div>
-                      </div>
-                </div>
-                <div class="single pull-right clearfix">
-                  <p>Lunes,14 de julio de 2015</p>
-                  <h3>Cual es tu queso favorito?</h3>
-                      <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                  </div>
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>Cuál es tu queso favorito?</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
                         <div class="media-body">
-                          <p class="media-heading">Aldo Miyashiro</p>
-                          <p class="media-heading">Chino de mi barrio</p>
+                          <p class="media-heading">BLOG</p>
+                          <p class="media-heading">Décimas Cosas</p>
                         </div>
-                      </div>
-                </div>
+                  </div>
+            </div>
+            <div class="contenedor-columnista clearfix">
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>El gol de la muerte</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                        <div class="media-body">
+                          <p class="media-heading">Augusto Ávarez Rodrich</p>
+                          <p class="media-heading">Claro y directo</p>
+                        </div>
+                  </div>
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>Dios ha muerto... tengo las manos cubiertas de sangre</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+                        <div class="media-body">
+                          <p class="media-heading">Mirko Laver</p>
+                          <p class="media-heading">Observador</p>
+                        </div>
+                  </div>
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>Cuál es tu queso favorito?</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                        <div class="media-body">
+                          <p class="media-heading">BLOG</p>
+                          <p class="media-heading">Décimas Cosas</p>
+                        </div>
+                  </div>
+            </div>
+            <div class="contenedor-columnista clearfix">
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>El gol de la muerte</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                        <div class="media-body">
+                          <p class="media-heading">Augusto Ávarez Rodrich</p>
+                          <p class="media-heading">Claro y directo</p>
+                        </div>
+                  </div>
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>Dios ha muerto... tengo las manos cubiertas de sangre</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+                        <div class="media-body">
+                          <p class="media-heading">Mirko Laver</p>
+                          <p class="media-heading">Observador</p>
+                        </div>
+                  </div>
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>Cuál es tu queso favorito?</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                        <div class="media-body">
+                          <p class="media-heading">BLOG</p>
+                          <p class="media-heading">Décimas Cosas</p>
+                        </div>
+                  </div>
+            </div>
+            <div class="contenedor-columnista clearfix">
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>El gol de la muerte</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                        <div class="media-body">
+                          <p class="media-heading">Augusto Ávarez Rodrich</p>
+                          <p class="media-heading">Claro y directo</p>
+                        </div>
+                  </div>
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>Dios ha muerto... tengo las manos cubiertas de sangre</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+                        <div class="media-body">
+                          <p class="media-heading">Mirko Laver</p>
+                          <p class="media-heading">Observador</p>
+                        </div>
+                  </div>
+                  <div class="single pull-left">
+                    <p>Lunes,14 de julio de 2015</p>
+                    <h3>Cuál es tu queso favorito?</h3>
+                        <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                        <div class="media-body">
+                          <p class="media-heading">BLOG</p>
+                          <p class="media-heading">Décimas Cosas</p>
+                        </div>
+                  </div>
+            </div><a href="#" class="btn-red text-center">TODAS LAS COLUMNAS</a>
           </div>
-          <div class="row">
-                <div class="single pull-right clearfix">
-                  <p>Lunes,14 de julio de 2015</p>
-                  <h3>El gol de la muerte</h3>
-                      <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
-                        <div class="media-body">
-                          <p class="media-heading">Francisco Duran</p>
-                          <p class="media-heading">Tiro al blanco</p>
-                        </div>
+          <div class="columnistas-complet">
+                <div class="encabezado">
+                  <h3></h3>
+                  <p>LO ULTIMO EN COLUMNISTAS<span><img src="assets/image/double-arrow-bottom.png"></span></p>
+                </div>
+            <div class="nav-columnistas">
+              <nav>
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link">TODOS </a></li>
+                  <li class="page-item"><a class="page-link">ABC</a></li>
+                  <li class="page-item"><a class="page-link">DEF</a></li>
+                  <li class="page-item"><a class="page-link">GHI</a></li>
+                  <li class="page-item"><a class="page-link">JKL</a></li>
+                  <li class="page-item"><a class="page-link">MNO</a></li>
+                  <li class="page-item"><a class="page-link">PQRS</a></li>
+                  <li class="page-item"><a class="page-link">TUV</a></li>
+                  <li class="page-item"><a class="page-link">WXYZ</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_01.jpg" class="media-object"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
                       </div>
                 </div>
-                <div class="single pull-right clearfix">
-                  <p>Lunes,14 de julio de 2015</p>
-                  <h3>Dios ha muerto... tengo las manos cubiertas de sangre</h3>
-                      <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
-                        <div class="media-body">
-                          <p class="media-heading">Humberto Campodónico</p>
-                          <p class="media-heading">Cristal de Mira</p>
-                        </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
                       </div>
                 </div>
-                <div class="single pull-right clearfix">
-                  <p>Lunes,14 de julio de 2015</p>
-                  <h3>Cual es tu queso favorito?</h3>
-                      <div class="media singlegrey"><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
-                        <div class="media-body">
-                          <p class="media-heading">Javier Ágreda</p>
-                          <p class="media-heading">Jaque Perpetuo</p>
-                        </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
                       </div>
                 </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_01.jpg" class="media-object"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_01.jpg" class="media-object"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_01.jpg" class="media-object"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_01.jpg" class="media-object"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_01.jpg" class="media-object"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_01.jpg" class="media-object"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cuadros-columnistas">
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img-columnistas.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Francisco Duran</p>
+                        <p class="media-heading">Tiro al blanco</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/img_author_columnista.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">humberto Campodónico</p>
+                        <p class="media-heading">Cristal de mira</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_02.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                      <div class="media singlegrey"></div><a href="#" class="media-left"><img src="assets/image/blog_avatar_03.jpg"></a>
+                      <div class="media-body">
+                        <p class="media-heading">Javier Ágreda</p>
+                        <p class="media-heading">Jaque Perpetuo</p>
+                      </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-md-2"><img src="assets/image/banner-aside-home.jpg"></div>
-      </div><a href="#" class="btn-red text-center">TODAS LAS COLUMNAS</a>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-              <div class="encabezado">
-                <h3></h3>
-                <p>LO ULTIMO EN COLUMNISTAS<span><img src="assets/image/double-arrow-bottom.png"></span></p>
-              </div>
-          <div class="nav-columnistas">
-            <nav>
-              <ul class="pagination">
-                <li class="page-item"><a class="page-link">TODOS </a></li>
-                <li class="page-item"><a class="page-link">ABC</a></li>
-                <li class="page-item"><a class="page-link">DEF</a></li>
-                <li class="page-item"><a class="page-link">GHI</a></li>
-                <li class="page-item"><a class="page-link">JKL</a></li>
-                <li class="page-item"><a class="page-link">MNO</a></li>
-                <li class="page-item"><a class="page-link">PQRS</a></li>
-                <li class="page-item"><a class="page-link">TUV</a></li>
-                <li class="page-item"><a class="page-link">WXYZ</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
       </div>
-    </section>
+    </div>
   </body>
 </html>
