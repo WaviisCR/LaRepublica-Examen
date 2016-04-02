@@ -31,20 +31,16 @@ mixin cdrgrey(call, tittlegrey, comentario)
 			p.media-heading= comentario
 
 mixin cdrprincipal(fecha, headline, call, tittlegrey, comentario)
-<<<<<<< HEAD
-		.single.pull-left
-			p= fecha
-			h3= headline 
-			+cdrgrey(call, tittlegrey, comentario)
-
-=======
+	.single.pull-left
+		p= fecha
+		h3= headline 
+		+cdrgrey(call, tittlegrey, comentario)
 	.single.pull-right.clearfix
 		p= fecha
 		h3= headline 
 		+cdrgrey(call, tittlegrey, comentario)
 //HOME//
 //COLUMNISTAS-SECCION//
->>>>>>> 1af8e14b52ec75061306dda69afca916829b0a46
 mixin img-avatar(call)
 	case call
 		when "a-1"
