@@ -31,11 +31,20 @@ mixin cdrgrey(call, tittlegrey, comentario)
 			p.media-heading= comentario
 
 mixin cdrprincipal(fecha, headline, call, tittlegrey, comentario)
+<<<<<<< HEAD
 		.single.pull-left
 			p= fecha
 			h3= headline 
 			+cdrgrey(call, tittlegrey, comentario)
 
+=======
+	.single.pull-right.clearfix
+		p= fecha
+		h3= headline 
+		+cdrgrey(call, tittlegrey, comentario)
+//HOME//
+//COLUMNISTAS-SECCION//
+>>>>>>> 1af8e14b52ec75061306dda69afca916829b0a46
 mixin img-avatar(call)
 	case call
 		when "a-1"
@@ -49,4 +58,59 @@ mixin banner-columnistas(call, name, tittle)
 		.info
 			h4=name
 			span=tittle
-
+//SECCION NOTICIAS//
+mixin img-noticia(call)
+	case call
+		when "img-not-1"
+			img(src="assets/image/img_especiales.jpg", alt="noticia1")
+		when "img-not-2"
+			img(src="assets/image/img_especiales_aside.jpg", alt="noticia2")
+mixin noticia(titular, call, descripcion)
+	.noticia
+		h3=titular
+		.img-noticia
+			+img-noticia(call)
+		P=descripcion
+//SECCION ULTIMAS NOTICIAS//
+mixin img-ultima(call)
+	case call
+		when 'ul-noti-1'
+			img.pull-left(src="assets/image/img_news_grid.jpg", alt="")
+		when 'ul-noti-2'
+			img.pull-left(src="assets/image/img_news_grid.jpg", alt="")
+		when 'ul-noti-3'
+			img.pull-left(src="assets/image/img_news_grid.jpg", alt="")
+		when 'ul-noti-4'
+			img.pull-left(src="assets/image/img_news_grid.jpg", alt="")
+mixin ultimas(date, titulo, call, subtitulo)
+	.mas-noticias.clearfix
+		h6=date
+		h5=titulo
+		+img-ultima(call)
+		.info
+			span=subtitulo
+		.interaccion
+			.social
+				a
+					i.fa.fa-facebook
+				a
+					i.fa.fa-twitter
+				a
+					i.fa.fa-google-plus
+//ASIDE//
+mixin img-aweita(call, content)
+	case call
+		when "aw-1"
+			.img-aweita
+				img.pull-left(src="assets/image/img_aweita.jpg", alt="")
+				.noticia
+					p=content
+		when "aw-2"
+			.img-aweita
+				img.pull-left(src="assets/image/img_aweita.jpg", alt="")
+				.noticia
+					p=content
+mixin aside-section(content)
+	img.w-100(src="assets/image/nota_galeria_border.png", alt="border")
+	.tittle
+		h5=content
