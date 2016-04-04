@@ -20,9 +20,12 @@ body {
 
 .pagination {
 	width: 100%;
+	ul {
+		padding: 1% 2%;
+	}
 }
 
 .pagination>li {
 	display: inline-block;
-	width: 10%;
+	width: 10.5%;
 }
