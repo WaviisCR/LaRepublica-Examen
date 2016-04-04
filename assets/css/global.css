@@ -19,7 +19,8 @@ h3, h4, h5, h6 {
   background-color: white; }
 
 .bckg-dots {
-  background-image: url(../assets/image/archive-sidebar-bg.jpg) repeat-x; }
+  background: url(../../assets/image/archive-sidebar-bg.jpg) repeat;
+  padding: 5% 3%; }
 
 .banner {
   background-color: #F2F2F2;
@@ -135,7 +136,6 @@ h3, h4, h5, h6 {
         margin-top: -20%;
         margin-right: -4%; }
 
-<<<<<<< HEAD
 .menu-magazine {
   padding: 0;
   margin-left: 1%; }
@@ -155,9 +155,8 @@ h3, h4, h5, h6 {
         text-decoration: none; }
       .menu-magazine .nav-magazine a:nth-child(1) {
         margin-left: 0.7em; }
-=======
+
 .columnistas-body .img-aside {
   width: 100%; }
->>>>>>> bf78a4ef427804ae31896aae3ca05584b2b5c806
 
 /*# sourceMappingURL=global.css.map */
