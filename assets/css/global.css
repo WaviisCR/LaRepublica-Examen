@@ -22,6 +22,59 @@ h3, h4, h5, h6 {
   background: url(../../assets/image/archive-sidebar-bg.jpg) repeat;
   padding: 5% 3%; }
 
+.encabezado h2 {
+  font-size: 2.7em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 3%; }
+.encabezado p {
+  font-family: 'Oswald', sans-serif;
+  color: gray; }
+  .encabezado p span {
+    margin-left: 0.7%; }
+
+.single {
+  width: 30%;
+  height: 240px;
+  padding: 3% 1%;
+  margin: 1%;
+  border: 2px solid #E0E0E0; }
+  .single .titulos {
+    height: 45%;
+    margin-bottom: 10%; }
+    .single .titulos p {
+      font-size: 0.8em;
+      color: black;
+      text-align: center;
+      margin-bottom: 5px; }
+    .single .titulos h3 {
+      font-size: 1.2em;
+      font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      margin-top: 0px; }
+
+.singlegrey {
+  background: #E0E0E0;
+  padding: 5% 4%; }
+  .singlegrey img {
+    border: 2px solid #ffffff; }
+  .singlegrey .text-grey {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4%; }
+    .singlegrey .text-grey .nombre {
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.8em;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 0px; }
+    .singlegrey .text-grey .comentario {
+      text-align: left;
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #667885; }
+
 .banner {
   background-color: #F2F2F2;
   padding: 1% 0 0.4%;
@@ -54,22 +107,21 @@ h3, h4, h5, h6 {
         color: #D30505;
         background-color: transparent;
         margin-left: 9px; }
-    .banner .box-banner .list-header .redes {
-      border-right: 1px solid silver; }
-      .banner .box-banner .list-header .redes a:nth-child(2) {
-        color: #4AB4D6; }
-      .banner .box-banner .list-header .redes a:nth-child(3) {
-        color: #D30505; }
-      .banner .box-banner .list-header .redes a:nth-child(4) {
-        color: #FFBF00; }
-      .banner .box-banner .list-header .redes i {
-        margin-right: 1.4em; }
-        .banner .box-banner .list-header .redes i:nth-child(5) {
-          margin: 0;
-          color: orange; }
+    .banner .box-banner .list-header .redes a:nth-child(2) {
+      color: #4AB4D6; }
+    .banner .box-banner .list-header .redes a:nth-child(3) {
+      color: #D30505; }
+    .banner .box-banner .list-header .redes a:nth-child(4) {
+      color: #FFBF00; }
+    .banner .box-banner .list-header .redes i {
+      margin-right: 1.4em; }
+      .banner .box-banner .list-header .redes i:nth-child(5) {
+        margin: 0;
+        color: orange; }
     .banner .box-banner .list-header .search {
       text-align: center;
-      border-right: 1px solid silver; }
+      border-right: 1px solid silver;
+      border-left: 1px solid silver; }
       .banner .box-banner .list-header .search a {
         font-size: 0.9em;
         font-weight: 600;
@@ -140,24 +192,54 @@ h3, h4, h5, h6 {
   padding: 0;
   margin-left: 1%; }
   .menu-magazine .nav-magazine {
-    margin: 1% 0;
-    padding: 0.3% 0;
-    background: #D30505;
-    border-radius: 5px; }
+    margin: 1% 0; }
+    .menu-magazine .nav-magazine .pager {
+      background-color: #D30505; }
     .menu-magazine .nav-magazine a {
-      margin: 0.45em;
       color: white;
       font-size: 0.9em;
       font-weight: 600;
-      transition: 0.5s; }
+      transition: 0.5s;
+      border: none;
+      border-right: 1px solid #A70303;
+      margin-right: -4px;
+      padding: 0.6%;
+      border-radius: inherit;
+      background-color: #D30505; }
       .menu-magazine .nav-magazine a:hover {
         color: black;
         text-decoration: none; }
+<<<<<<< HEAD
       .menu-magazine .nav-magazine a:nth-child(1) {
         margin-left: 0.8em; }
+=======
+      .menu-magazine .nav-magazine a .barra {
+        border-color: #D30505; }
+
+body {
+  padding: 0% 2%; }
+>>>>>>> 71827434031ceb8ec4490fb339d17769d18f176d
 
 .columnistas-body .img-aside {
   width: 100%; }
+.columnistas-body .btn-red {
+  color: white;
+  background: #9A1414;
+  margin-left: 37%;
+  margin-top: 12%;
+  padding: 0.3% 3%;
+  border-radius: 5px; }
+  .columnistas-body .btn-red:hover {
+    text-decoration: none; }
+
+.pagination {
+  width: 100%; }
+  .pagination ul {
+    padding: 1% 2%; }
+
+.pagination > li {
+  display: inline-block;
+  width: 10.5%; }
 
 /*COLUMNISTAS*/
 #columnistas
