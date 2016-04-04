@@ -12,6 +12,9 @@ footer {
 		font-family: 'PT Sans';
     	font-weight: 600;
 	}
+	p {
+		font-size: 0.85em;
+	}
 	.border-left {
 		border-left: 1px solid $silver;
 	}
@@ -23,7 +26,7 @@ footer {
 			a {
 				color: #333;
 				transition: 0.5s;
-				font-size: 0.85em
+				font-size: 0.85em;
 				&:hover {
 					text-decoration: none;
 					color: $dark-red;
