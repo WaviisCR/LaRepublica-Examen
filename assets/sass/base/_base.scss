@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -94,3 +95,28 @@
     		}
 		}
 	} 
+=======
+@mixin redes {
+	a {
+		&:nth-child(2) {
+			color: $light-blue;
+		}
+		&:nth-child(3) {
+			color: $dark-red;
+		}
+		&:nth-child(4) {
+			color: $yellow-orange;
+		}
+	}
+	i {
+		margin-right: 1.4em;
+		&:nth-child(5) {
+			margin:0;
+			color: orange;
+		}
+	}
+}
+@mixin sub-title {
+	
+}
+>>>>>>> f2de5979d39a727adbdd8583d7162f7cab58939e
