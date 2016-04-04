@@ -215,6 +215,8 @@ footer {
   footer h4 {
     font-family: 'PT Sans';
     font-weight: 600; }
+  footer li {
+    list-style: none; }
 
 .columnistas-body .img-aside {
   width: 100%; }
