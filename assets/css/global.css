@@ -54,22 +54,21 @@ h3, h4, h5, h6 {
         color: #D30505;
         background-color: transparent;
         margin-left: 9px; }
-    .banner .box-banner .list-header .redes {
-      border-right: 1px solid silver; }
-      .banner .box-banner .list-header .redes a:nth-child(2) {
-        color: #4AB4D6; }
-      .banner .box-banner .list-header .redes a:nth-child(3) {
-        color: #D30505; }
-      .banner .box-banner .list-header .redes a:nth-child(4) {
-        color: #FFBF00; }
-      .banner .box-banner .list-header .redes i {
-        margin-right: 1.4em; }
-        .banner .box-banner .list-header .redes i:nth-child(5) {
-          margin: 0;
-          color: orange; }
+    .banner .box-banner .list-header .redes a:nth-child(2) {
+      color: #4AB4D6; }
+    .banner .box-banner .list-header .redes a:nth-child(3) {
+      color: #D30505; }
+    .banner .box-banner .list-header .redes a:nth-child(4) {
+      color: #FFBF00; }
+    .banner .box-banner .list-header .redes i {
+      margin-right: 1.4em; }
+      .banner .box-banner .list-header .redes i:nth-child(5) {
+        margin: 0;
+        color: orange; }
     .banner .box-banner .list-header .search {
       text-align: center;
-      border-right: 1px solid silver; }
+      border-right: 1px solid silver;
+      border-left: 1px solid silver; }
       .banner .box-banner .list-header .search a {
         font-size: 0.9em;
         font-weight: 600;
@@ -154,11 +153,7 @@ h3, h4, h5, h6 {
         color: black;
         text-decoration: none; }
       .menu-magazine .nav-magazine a:nth-child(1) {
-<<<<<<< HEAD
-        margin-left: 0.7em; }
-=======
         margin-left: 0.8em; }
->>>>>>> 389821edfe7804ad6b0095f23a8ec385953ccd0b
 
 .columnistas-body .img-aside {
   width: 100%; }

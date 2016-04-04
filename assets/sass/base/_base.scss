@@ -1,5 +1,4 @@
 @mixin redes {
-	border-right: 1px solid $silver;
 	a {
 		&:nth-child(2) {
 			color: $light-blue;
@@ -18,4 +17,7 @@
 			color: orange;
 		}
 	}
+}
+@mixin sub-title {
+	
 }
