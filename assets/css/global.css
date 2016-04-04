@@ -1,241 +1,72 @@
-/* botones redes */
-p, a {
-  font-family: 'PT Sans', sans-serif; }
+/*
+Error: Invalid CSS after "...ck-red: #A70303": expected "{", was ";"
+        on line 22 of sass/base/_colores.scss
+        from line 1 of sass/global.scss
 
-h1, h2 {
-  font-family: 'Open Sans', sans-serif; }
+17: $grey:#667885;
+18: /* botones redes *\/
+19: $light-blue: #4AB4D6;
+20: $yellow-orange: #FFBF00;
+21: <<<<<<< HEAD
+22: $dark-black-red: #A70303;
+23: =======
+24: $dark-black-red: #A70303;
+25: >>>>>>> 71827434031ceb8ec4490fb339d17769d18f176d
 
-h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif; }
-
-/*UTILCLASS*/
-.w-100 {
-  width: 100%; }
-
-.border-silver {
-  border: silver 1px solid; }
-
-.bckg-white {
-  background-color: white; }
-
-.bckg-dots {
-  background: url(../../assets/image/archive-sidebar-bg.jpg) repeat;
-  padding: 5% 3%; }
-
-.encabezado h2 {
-  font-size: 2.7em;
-  font-weight: bold;
-  color: black;
-  margin-bottom: 3%; }
-.encabezado p {
-  font-family: 'Oswald', sans-serif;
-  color: gray; }
-  .encabezado p span {
-    margin-left: 0.7%; }
-
-.single {
-  width: 30%;
-  height: 240px;
-  padding: 3% 1%;
-  margin: 1%;
-  border: 2px solid #E0E0E0; }
-  .single .titulos {
-    height: 45%;
-    margin-bottom: 10%; }
-    .single .titulos p {
-      font-size: 0.8em;
-      color: black;
-      text-align: center;
-      margin-bottom: 5px; }
-    .single .titulos h3 {
-      font-size: 1.2em;
-      font-weight: bold;
-      font-family: 'Open Sans', sans-serif;
-      text-align: center;
-      margin-top: 0px; }
-
-.singlegrey {
-  background: #E0E0E0;
-  padding: 5% 4%; }
-  .singlegrey img {
-    border: 2px solid #ffffff; }
-  .singlegrey .text-grey {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 4%; }
-    .singlegrey .text-grey .nombre {
-      font-family: 'Oswald', sans-serif;
-      font-size: 0.8em;
-      font-weight: bold;
-      text-align: left;
-      margin-bottom: 0px; }
-    .singlegrey .text-grey .comentario {
-      text-align: left;
-      font-size: 1.1em;
-      font-weight: bold;
-      color: #667885; }
-
-.banner {
-  background-color: #F2F2F2;
-  padding: 1% 0 0.4%;
-  border-bottom: 1px solid silver; }
-  .banner .box-banner .banner-top img {
-    width: 101%; }
-  .banner .box-banner .list-header {
-    padding: 1.2% 0 0; }
-    .banner .box-banner .list-header .box-nav a {
-      color: gray;
-      text-decoration: none;
-      font-size: 0.8em;
-      margin-right: 1em;
-      font-weight: 600; }
-      .banner .box-banner .list-header .box-nav a:hover {
-        color: black;
-        text-decoration: none; }
-    .banner .box-banner .list-header .suscribete {
-      background: #D30505;
-      padding: 1% 3%;
-      border-radius: 5px;
-      border: 1px solid #D30505;
-      font-size: 0.8em;
-      color: white;
-      text-decoration: none;
-      margin-left: 9px;
-      transition: 0.5s; }
-      .banner .box-banner .list-header .suscribete:hover {
-        border: 1px solid #D30505;
-        color: #D30505;
-        background-color: transparent;
-        margin-left: 9px; }
-    .banner .box-banner .list-header .redes a:nth-child(2) {
-      color: #4AB4D6; }
-    .banner .box-banner .list-header .redes a:nth-child(3) {
-      color: #D30505; }
-    .banner .box-banner .list-header .redes a:nth-child(4) {
-      color: #FFBF00; }
-    .banner .box-banner .list-header .redes i {
-      margin-right: 1.4em; }
-      .banner .box-banner .list-header .redes i:nth-child(5) {
-        margin: 0;
-        color: orange; }
-    .banner .box-banner .list-header .search {
-      text-align: center;
-      border-right: 1px solid silver;
-      border-left: 1px solid silver; }
-      .banner .box-banner .list-header .search a {
-        font-size: 0.9em;
-        font-weight: 600;
-        text-decoration: none; }
-        .banner .box-banner .list-header .search a:hover {
-          text-decoration: none;
-          color: black; }
-
-.header {
-  padding: 2% 0; }
-  .header .republica {
-    margin: 5% 2%; }
-  .header .a-domingo a {
-    color: black; }
-    .header .a-domingo a:hover {
-      text-decoration: none; }
-    .header .a-domingo a .box-domingo {
-      border: 1px solid;
-      padding: 2%;
-      text-align: center;
-      border-bottom: 3px solid #D30505; }
-      .header .a-domingo a .box-domingo .text-domingo {
-        font-size: 0.8em;
-        font-weight: 600;
-        background: #D30505;
-        width: 80px;
-        padding: 5px;
-        position: absolute;
-        top: -20%;
-        left: 35%;
-        color: white;
-        font-family: 'Open Sans'; }
-      .header .a-domingo a .box-domingo .autor {
-        font-size: 0.9em;
-        font-weight: 600;
-        margin-top: 6%; }
-  .header a:hover {
-    text-decoration: none; }
-  .header .editorial .box-editorial {
-    border: 1px solid silver;
-    background: #2C3238; }
-    .header .editorial .box-editorial .img-editorial {
-      float: left;
-      margin: 1%; }
-    .header .editorial .box-editorial .box-corrupcion {
-      border: 1px solid silver;
-      border-radius: 5px;
-      margin-left: 20px;
-      background: white;
-      text-align: center;
-      color: black; }
-      .header .editorial .box-editorial .box-corrupcion p {
-        font-weight: 600;
-        margin-bottom: 0;
-        margin-top: 4px;
-        text-decoration: none; }
-        .header .editorial .box-editorial .box-corrupcion p:nth-child(2) {
-          font-style: italic;
-          font-weight: normal;
-          margin: 0 0 10px;
-          font-size: 0.9em; }
-      .header .editorial .box-editorial .box-corrupcion .img-autor {
-        float: right;
-        margin-top: -20%;
-        margin-right: -4%; }
-
-.menu-magazine {
-  padding: 0;
-  margin-left: 1%; }
-  .menu-magazine .nav-magazine {
-    margin: 1% 0; }
-    .menu-magazine .nav-magazine .pager {
-      background-color: #D30505;
-      text-align: left; }
-    .menu-magazine .nav-magazine a {
-      color: white;
-      font-size: 0.9em;
-      font-weight: 600;
-      transition: 0.5s;
-      border: none;
-      border-right: 1px solid #A70303;
-      margin-right: -4px;
-      padding: 0.53%;
-      border-radius: inherit;
-      background-color: #D30505; }
-      .menu-magazine .nav-magazine a:hover {
-        color: black;
-        text-decoration: none; }
-      .menu-magazine .nav-magazine a .barra {
-        border-color: #D30505; }
-
-footer {
-  background-color: silver; }
-  footer h4 {
-    font-family: 'PT Sans';
-    font-weight: 600; }
-
-.columnistas-body .img-aside {
-  width: 100%; }
-.columnistas-body .btn-red {
-  color: white;
-  background: #9A1414;
-  margin-left: 37%;
-  margin-top: 12%;
-  padding: 0.3% 3%;
-  border-radius: 5px; }
-  .columnistas-body .btn-red:hover {
-    text-decoration: none; }
-
-.pagination {
-  width: 100%; }
-
-.pagination > li {
-  display: inline-block;
-  width: 10%; }
-
-/*# sourceMappingURL=global.css.map */
+Backtrace:
+sass/base/_colores.scss:22
+sass/global.scss:1
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:654:in `block'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:309:in `to_tree'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:471:in `on_file_changed'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:328:in `block in watch'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `call'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ck-red: #A70303\": expected \"{\", was \";\"\A         on line 22 of sass/base/_colores.scss\A         from line 1 of sass/global.scss\A \A 17: $grey:#667885;\A 18: /* botones redes */\A 19: $light-blue: #4AB4D6;\A 20: $yellow-orange: #FFBF00;\A 21: <<<<<<< HEAD\A 22: $dark-black-red: #A70303;\A 23: =======\A 24: $dark-black-red: #A70303;\A 25: >>>>>>> 71827434031ceb8ec4490fb339d17769d18f176d"; }
