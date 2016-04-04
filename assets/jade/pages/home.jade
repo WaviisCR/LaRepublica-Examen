@@ -22,10 +22,10 @@ html(lang='es-PE')
 								img(src="assets/image/img_grid_secundario.jpg", alt="titulares")
 								img(src="assets/image/img_grid_secundario.jpg", alt="titulares")
 						//COLUMNISTAS//
-						.row#columnistas
-							.col-md-16.text-center.clearfix
+						.row#columnistas.text-center
+							.col-md-16.clearfix
 								.columnistas
-									img(src="assets/image/nota_galeria_border.png", alt="border")
+									hr.custom
 									.tittle
 										h3 COLUMNISTAS
 									+banner-columnistas("a-1", "Mario Vargas LLosa", " Lorem ipsum dolor sit")
@@ -117,7 +117,7 @@ html(lang='es-PE')
 									hr
 									+ultimas("Hace 1hr 12minutos", "Emma Watson protagoniza la bella y la bestia", "ul-noti-1", "La actriz Emma Watson fue confirmada por Disney como la protagonista de La bella y la bestia en la version de carne y hueso.")
 							//ASIDE: PUBLICIDAD Y OTROS ENLACES//
-							aside.col-md-6
+							aside.col-md-6.text-center
 								.publicidad
 									img.w-100(src="assets/image/banner-aside-home.jpg")
 								.suscribirse.bckg-dots
@@ -145,17 +145,17 @@ html(lang='es-PE')
 									+foto-des("aw-2", "Alianza Lima vs Fenix: intimos ganaron 1-0 en Noche blanquiazul VIDEO Y FOTOS")
 									+foto-des("aw-2", "Tomas Berdych derroto 3-0 a Rafael Nada y avanzzo en el Australian Open FOTOS")
 								hr
-								#cespeciales
+								#especiales
 									+aside-section("ESPECIALES")
 									+especiales("esp1", "Lorem ipsum dolor sit amet, consectetur adipisicing elit.")
 									+especiales("esp1", "Lorem ipsum dolor sit amet, consectetur adipisicing elit.")
 									+especiales("esp1", "Lorem ipsum dolor sit amet, consectetur adipisicing elit.")
 									+especiales("esp1", "Lorem ipsum dolor sit amet, consectetur adipisicing elit.")
 								hr
-								#carlincatura.text-center
+								#carlincatura
 									+aside-section("CARLINCATURA DEL DIA")
 									h6 CARLICANTURAS 30 - 01 - 2015
-									img(src="assets/image/img_carlincatura_sd.jpg", alt="")
+									img.w-100(src="assets/image/img_carlincatura_sd.jpg", alt="")
 									a(href="#") Todas las carlicanturas
 								hr
 								#blogueros

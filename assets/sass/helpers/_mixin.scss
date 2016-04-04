@@ -22,3 +22,8 @@
         }
     }
 }
+@mixin custom($width, $m-left, $m-top){
+    width: $width;
+    margin-left: $m-left;
+    margin-top: $m-top;
+}
