@@ -19,7 +19,8 @@ h3, h4, h5, h6 {
   background-color: white; }
 
 .bckg-dots {
-  background-image: url(../assets/image/archive-sidebar-bg.jpg) repeat-x; }
+  background: url(../../assets/image/archive-sidebar-bg.jpg) repeat;
+  padding: 5% 3%; }
 
 .banner {
   background-color: #F2F2F2;
@@ -153,7 +154,11 @@ h3, h4, h5, h6 {
         color: black;
         text-decoration: none; }
       .menu-magazine .nav-magazine a:nth-child(1) {
+<<<<<<< HEAD
+        margin-left: 0.7em; }
+=======
         margin-left: 0.8em; }
+>>>>>>> 389821edfe7804ad6b0095f23a8ec385953ccd0b
 
 .columnistas-body .img-aside {
   width: 100%; }
