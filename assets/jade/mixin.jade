@@ -1,6 +1,6 @@
 mixin titulo(tittle, subtitulo)
 	.encabezado
-		h3= tittle
+		h2= tittle
 		p= subtitulo
 			span
 				img(src="assets/image/double-arrow-bottom.png")
@@ -8,50 +8,42 @@ mixin titulo(tittle, subtitulo)
 mixin photo(call)
 	case call
 		when 'uno'
-			a.media-left(href="#")
-				img.media-object(src="assets/image/blog_avatar_01.jpg")
+			a(href="#")
+				img(src="assets/image/blog_avatar_01.jpg")
 		when 'dos'
-			a.media-left(href="#")
+			a(href="#")
 				img(src="assets/image/blog_avatar_02.jpg")
 		when 'tres'
-			a.media-left(href="#")
+			a(href="#")
 				img(src="assets/image/blog_avatar_03.jpg")
 		when 'cuatro'
-			a.media-left(href="#")
+			a(href="#")
 				img(src="assets/image/img_author_columnista.jpg")
 		when 'cinco'
-			a.media-left(href="#")
-				img(src="assets/image/img-columnistas.jpg")
+			a(href="#")
+				img(src="assets/image/img_blogueros.jpg")
 
 mixin cdrgrey(call, tittlegrey, comentario)
-		.media.singlegrey
-		+photo(call)
-		.media-body
-			p.media-heading= tittlegrey
-			p.media-heading= comentario
+		.singlegrey
+			+photo(call)
+			.text-grey
+				p.nombre= tittlegrey
+				p.comentario= comentario
 
 mixin cdrprincipal(fecha, headline, call, tittlegrey, comentario)
 		.single.pull-left
-			p= fecha
-			h3= headline 
+			.titulos
+				p= fecha
+				h3= headline 
 			+cdrgrey(call, tittlegrey, comentario)
 
-	.single.pull-left
-		p= fecha
-		h3= headline 
-		+cdrgrey(call, tittlegrey, comentario)
-	.single.pull-right.clearfix
-		p= fecha
-		h3= headline 
-		+cdrgrey(call, tittlegrey, comentario)
-//HOME//
-//COLUMNISTAS-SECCION//
 mixin img-avatar(call)
 	case call
 		when "a-1"
 			img.MVLL(src="assets/image/img-columnistas.jpg", alt="avatar-columnista")
 		when "a-2"
 			img(src="assets/image/img_blogueros.jpg", alt="avatar-columnista")
+
 mixin banner-columnistas(call, name, tittle)
 	.columnista.pull-left
 		.avatar
@@ -59,6 +51,7 @@ mixin banner-columnistas(call, name, tittle)
 		.info
 			h4=name
 			span=tittle
+
 //SECCION NOTICIAS//
 mixin img-noticia(call)
 	case call
