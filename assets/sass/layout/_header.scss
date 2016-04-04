@@ -142,8 +142,10 @@ a:hover{
     margin-left: 1%;
 	.nav-magazine {
 		margin: 1% 0;
+
     	.pager {
     		background-color: $dark-red;
+            text-align: left;
     	}
 		a {
     		color: white;
@@ -153,7 +155,7 @@ a:hover{
 			border: none;
     		border-right: 1px solid $dark-black-red;  
     		margin-right: -4px;
-    		padding: 0.6%;
+    		padding: 0.53%;
     		border-radius: inherit;
     		background-color: $dark-red;
 			&:hover {
