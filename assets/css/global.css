@@ -22,6 +22,59 @@ h3, h4, h5, h6 {
   background: url(../../assets/image/archive-sidebar-bg.jpg) repeat;
   padding: 5% 3%; }
 
+.encabezado h2 {
+  font-size: 2.7em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 3%; }
+.encabezado p {
+  font-family: 'Oswald', sans-serif;
+  color: gray; }
+  .encabezado p span {
+    margin-left: 0.7%; }
+
+.single {
+  width: 30%;
+  height: 240px;
+  padding: 3% 1%;
+  margin: 1%;
+  border: 2px solid #E0E0E0; }
+  .single .titulos {
+    height: 45%;
+    margin-bottom: 10%; }
+    .single .titulos p {
+      font-size: 0.8em;
+      color: black;
+      text-align: center;
+      margin-bottom: 5px; }
+    .single .titulos h3 {
+      font-size: 1.2em;
+      font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      margin-top: 0px; }
+
+.singlegrey {
+  background: #E0E0E0;
+  padding: 5% 4%; }
+  .singlegrey img {
+    border: 2px solid #ffffff; }
+  .singlegrey .text-grey {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4%; }
+    .singlegrey .text-grey .nombre {
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.8em;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 0px; }
+    .singlegrey .text-grey .comentario {
+      text-align: left;
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #667885; }
+
 .banner {
   background-color: #F2F2F2;
   padding: 1% 0 0.4%;
@@ -65,56 +118,6 @@ h3, h4, h5, h6 {
       .banner .box-banner .list-header .redes i:nth-child(5) {
         margin: 0;
         color: orange; }
-    .banner .box-banner .list-header .redes .encabezado h2 {
-      font-size: 2.7em;
-      font-weight: bold;
-      color: black;
-      margin-bottom: 3%; }
-    .banner .box-banner .list-header .redes .encabezado p {
-      font-family: 'Oswald', sans-serif;
-      color: gray; }
-      .banner .box-banner .list-header .redes .encabezado p span {
-        margin-left: 0.7%; }
-    .banner .box-banner .list-header .redes .single {
-      width: 30%;
-      height: 240px;
-      padding: 3% 1%;
-      margin: 1%;
-      border: 2px solid #E0E0E0; }
-      .banner .box-banner .list-header .redes .single .titulos {
-        height: 45%;
-        margin-bottom: 10%; }
-        .banner .box-banner .list-header .redes .single .titulos p {
-          font-size: 0.8em;
-          color: black;
-          text-align: center;
-          margin-bottom: 5px; }
-        .banner .box-banner .list-header .redes .single .titulos h3 {
-          font-size: 1.2em;
-          font-weight: bold;
-          font-family: 'Open Sans', sans-serif;
-          text-align: center;
-          margin-top: 0px; }
-    .banner .box-banner .list-header .redes .singlegrey {
-      background: #E0E0E0;
-      padding: 5% 4%; }
-      .banner .box-banner .list-header .redes .singlegrey img {
-        border: 2px solid #ffffff; }
-      .banner .box-banner .list-header .redes .singlegrey .text-grey {
-        display: inline-block;
-        vertical-align: top;
-        margin-left: 4%; }
-        .banner .box-banner .list-header .redes .singlegrey .text-grey .nombre {
-          font-family: 'Oswald', sans-serif;
-          font-size: 0.8em;
-          font-weight: bold;
-          text-align: left;
-          margin-bottom: 0px; }
-        .banner .box-banner .list-header .redes .singlegrey .text-grey .comentario {
-          text-align: left;
-          font-size: 1.1em;
-          font-weight: bold;
-          color: #667885; }
     .banner .box-banner .list-header .search {
       text-align: center;
       border-right: 1px solid silver;
@@ -253,55 +256,5 @@ footer {
   .redes i:nth-child(5) {
     margin: 0;
     color: orange; }
-.redes .encabezado h2 {
-  font-size: 2.7em;
-  font-weight: bold;
-  color: black;
-  margin-bottom: 3%; }
-.redes .encabezado p {
-  font-family: 'Oswald', sans-serif;
-  color: gray; }
-  .redes .encabezado p span {
-    margin-left: 0.7%; }
-.redes .single {
-  width: 30%;
-  height: 240px;
-  padding: 3% 1%;
-  margin: 1%;
-  border: 2px solid #E0E0E0; }
-  .redes .single .titulos {
-    height: 45%;
-    margin-bottom: 10%; }
-    .redes .single .titulos p {
-      font-size: 0.8em;
-      color: black;
-      text-align: center;
-      margin-bottom: 5px; }
-    .redes .single .titulos h3 {
-      font-size: 1.2em;
-      font-weight: bold;
-      font-family: 'Open Sans', sans-serif;
-      text-align: center;
-      margin-top: 0px; }
-.redes .singlegrey {
-  background: #E0E0E0;
-  padding: 5% 4%; }
-  .redes .singlegrey img {
-    border: 2px solid #ffffff; }
-  .redes .singlegrey .text-grey {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 4%; }
-    .redes .singlegrey .text-grey .nombre {
-      font-family: 'Oswald', sans-serif;
-      font-size: 0.8em;
-      font-weight: bold;
-      text-align: left;
-      margin-bottom: 0px; }
-    .redes .singlegrey .text-grey .comentario {
-      text-align: left;
-      font-size: 1.1em;
-      font-weight: bold;
-      color: #667885; }
 
 /*# sourceMappingURL=global.css.map */
