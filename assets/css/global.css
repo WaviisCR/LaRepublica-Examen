@@ -154,13 +154,28 @@ h3, h4, h5, h6 {
         color: black;
         text-decoration: none; }
       .menu-magazine .nav-magazine a:nth-child(1) {
-<<<<<<< HEAD
-        margin-left: 0.7em; }
-=======
         margin-left: 0.8em; }
->>>>>>> 389821edfe7804ad6b0095f23a8ec385953ccd0b
 
 .columnistas-body .img-aside {
   width: 100%; }
+
+/*COLUMNISTAS*/
+#columnistas
+.resize {
+  width: 3.55em; }
+
+.redes {
+  border-right: 1px solid silver; }
+  .redes a:nth-child(2) {
+    color: #4AB4D6; }
+  .redes a:nth-child(3) {
+    color: #D30505; }
+  .redes a:nth-child(4) {
+    color: #FFBF00; }
+  .redes i {
+    margin-right: 1.4em; }
+    .redes i:nth-child(5) {
+      margin: 0;
+      color: orange; }
 
 /*# sourceMappingURL=global.css.map */

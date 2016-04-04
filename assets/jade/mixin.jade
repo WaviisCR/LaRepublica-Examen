@@ -49,7 +49,7 @@ mixin cdrprincipal(fecha, headline, call, tittlegrey, comentario)
 mixin img-avatar(call)
 	case call
 		when "a-1"
-			img.MVLL(src="assets/image/img-columnistas.jpg", alt="avatar-columnista")
+			img.resize(src="assets/image/img-columnistas.jpg", alt="avatar-columnista")
 		when "a-2"
 			img(src="assets/image/img_blogueros.jpg", alt="avatar-columnista")
 mixin banner-columnistas(call, name, tittle)
@@ -85,13 +85,13 @@ mixin img-ultima(call)
 			img.pull-left(src="assets/image/img_news_grid.jpg", alt="")
 mixin ultimas(date, titulo, call, subtitulo)
 	.mas-noticias.clearfix
-		h6=date
-		h5=titulo
+		p=date
+		h4=titulo
 		+img-ultima(call)
 		.info
 			span=subtitulo
 		.interaccion
-			.redes
+			.redes.box-shadow
 				a(href="#"): i.fa.fa-facebook
 				a(href="#"): i.fa.fa-twitter
 				a(href="#"): i.fa.fa-google
@@ -105,10 +105,24 @@ mixin img-aweita(call, content)
 					p=content
 		when "aw-2"
 			.img-aweita
-				img.pull-left(src="assets/image/img_aweita.jpg", alt="")
+				img.pull-left(src="assets/image/img_fotodes.jpg", alt="")
 				.noticia
 					p=content
 mixin aside-section(content)
 	img.w-100(src="assets/image/nota_galeria_border.png", alt="border")
 	.tittle
 		h5=content
+mixin foto-des(call,content)
+	.foto-dest.clearfix
+		+img-aweita(call)
+		h5=content
+mixin imagen-especiales(call)
+	case call
+		when "esp1"
+			img(src="assets/image/img_especiales_aside.jpg", alt="")
+mixin especiales(call, info)
+	.especiales
+		.especiales-img
+			+imagen-especiales(call)
+			.img-info-esp
+				h5=info
