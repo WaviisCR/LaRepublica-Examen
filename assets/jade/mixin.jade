@@ -106,13 +106,13 @@ mixin img-aweita(call, content)
 				.col-md-6
 					img(src="assets/image/img_aweita.jpg", alt="")
 				.col-md-10
-					.noticia
+					.noticia.text-left
 						p=content
 		when "aw-2"
 			.row
 				.col-md-6
 					img(src="assets/image/img_fotodes.jpg", alt="")
-				.col-md-10
+				.col-md-10.text-left
 					.noticia
 						p=content
 		when "popular-1"
@@ -120,14 +120,28 @@ mixin img-aweita(call, content)
 				.col-md-6
 					img(src="assets/image/img_fotodes.jpg", alt="")
 				.col-md-10
-					.noticia
+					.noticia.text-left
+						p=content
+		when "libero-1"
+			.row
+				.col-md-6
+					img.w-100(src="assets/image/img_video_destacado.jpg", alt="")
+				.col-md-10
+					.noticia.text-left
+						p=content
+		when "wapa-1"
+			.row
+				.col-md-6
+					img(src="assets/image/img_fotodes.jpg", alt="")
+				.col-md-10
+					.noticia.text-left
 						p=content
 mixin aside-section(content)
 	hr.custom
 	.tittle
 		h5=content
 mixin foto-des(call,content)
-	.foto-dest.clearfix
+	.foto-dest
 		+img-aweita(call)
 		h5=content
 mixin imagen-especiales(call)
