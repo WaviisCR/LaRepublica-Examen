@@ -9,6 +9,21 @@
     }
 }
 #columnistas{
+	background-color: $silver-light;
+	margin: 2% 0%;
+	padding-bottom: 2%;
+	.columnista {
+		width: 16%;
+	}
+	h4 {
+		font-size: 0.9em;
+		a {
+			color: $black;	
+		}	
+	}
+	span {
+		font-size: 0.7em,
+	}
 	.tittle{
 		@include custom(25%, 36%, -3%);
 	}
@@ -61,7 +76,7 @@
 }
 .box-titulares {
 	.titulo-imagen-1 {
-		@include imagen(54.5%);
+		@include imagen(56.5%);
 		h2 {
 			font-family: 'PT sans';
 			font-weight: 600;
@@ -71,11 +86,11 @@
 		margin-bottom: 4%;
 	}
 	.titulo-imagen-2 {
-		@include imagen(9.8%);
+		@include imagen(10.8%);
 		@include style;	
 	}
 	.titulo-imagen-3 {
-		@include imagen(61.6%);
+		@include imagen(62.6%);
 		@include style;	
 	}
 }
@@ -89,4 +104,7 @@
 }
 .ultimas-noticias {
 	@include boxRedes;
+}
+.noticia {
+	margin: 2%;
 }
