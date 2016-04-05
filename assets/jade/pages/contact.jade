@@ -9,30 +9,25 @@ html(lang='es-PE')
 		.contact-body
 			.row
 				.col-md-2
-					img.img-aside(src="assets/image/banner-aside-home.jpg")
+					img.w-100(src="assets/image/banner-aside-home.jpg")
 				.col-md-12
 					+titulo('Contáctese con nosotros')
 					p.desarrollo Llena este formulario si necesita enviarnos alguna imformacion acerca del contenido del sitio web, su funcionalidad, o si tiene alguna propuesta de información o mejora para el sitio . Así mismo, puede llegar a los redactores su opinión acerca de los contenidos de una determinada sección el cual podría elegir como destinario.
 					form
-						.row
-							.col-md-offset-4.col-md-8
-								input(type="text",class="form-control",id="inputEmail3",placeholder="Nombres Completos")
-							.col-md-offset-4.col-md-8
-								input(type="text",class="form-control",id="inputEmail3",placeholder="Correo electrónico")
-							.col-md-offset-4.col-md-8
-								input(type="text",class="form-control",id="inputEmail3",placeholder="Teléfonos")
-								span.opcional|(Opcional)
-						.row
-							.col-md-offset-4.col-md-4
-								h3 Elija un destinario 
+						input(type="text",class="form-control",id="inputEmail3",placeholder="Nombres Completos")
+						input(type="text",class="form-control",id="inputEmail3",placeholder="Correo electrónico")
+						input(type="text",class="form-control",id="inputEmail3",placeholder="Teléfonos")
+							span.opcional|(Opcional)
+						.check-form
+							h3 Elija un destinario 
 								.radio
 									label
 										input(type="radio", name="gridRadios", id="gridRadios1", value="option1", checked)
-										| Sugerencia para el sitio web
+											| Sugerencia para el sitio web
 								.radio
 									label
 										input(type="radio", name="gridRadios", id="gridRadios1", value="option2", checked)
-										| Dirección periodística
+											| Dirección periodística
 								.radio
 									label
 										input(type="radio", name="gridRadios", id="gridRadios1", value="option3", checked)
@@ -40,29 +35,25 @@ html(lang='es-PE')
 								.radio
 									label
 										input(type="radio", name="gridRadios", id="gridRadios1", value="option4", checked)
-										| Cartas al director
+											| Cartas al director
 								.radio
 									label
 										input(type="radio", name="gridRadios", id="gridRadios1", value="option5", checked)
-										| Promociones y productos del diario
+											| Promociones y productos del diario
 								.radio
 									label
 										input(type="radio", name="gridRadios", id="gridRadios1", value="option6", checked)
-										| Archivo periodídtico
-							.col-md-4
-								.checkin-right
-									p|(Ej: funcionamiento y mejoras para el sitio)
-									p|(Ej: sugerencia para la nota de prensa)
-									p|(Ej: Publicidad en diarios o sitios web)
-									p|(Ej: denuncias, comentarios e impresiones)
-									p|(Ej: Promociones, tablet, etc)
-									p|(Ej: Ediciones impresas/fotos)
-						.row
-							.col-md-offset-4.col-md-8
-								textarea(class="form-control", id="exampleTextarea", rows="3") Mensaje
-						.row
-							.col-md-offset-4.col-md-8
-							button(type="submit", class="btn btn-primary") ENVIAR
+											| Archivo periodídtico
+						.checkin-right
+							p|(Ej: funcionamiento y mejoras para el sitio)
+							p|(Ej: sugerencia para la nota de prensa)
+							p|(Ej: Publicidad en diarios o sitios web)
+							p|(Ej: denuncias, comentarios e impresiones)
+							p|(Ej: Promociones, tablet, etc)
+							p|(Ej: Ediciones impresas/fotos)
+
+						textarea(class="form-control", id="exampleTextarea", rows="3") Mensaje
+						button(type="submit", class="btn-enviar") ENVIAR
 				.col-md-2
-					img.img-aside(src="assets/image/banner-aside-home.jpg")
+					img.w-100(src="assets/image/banner-aside-home.jpg")
 		include ../layout/footer.jade

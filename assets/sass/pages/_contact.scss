@@ -12,7 +12,10 @@
 		padding: 0% 2%;
 	}
 	form {
-		padding: 4% 0%;
+		width: 60%;
+		padding: 2% 0%;
+		margin: auto;
+		font-family: 'PT Sans', sans-serif;
 		h3 {
 			font-family: 'Open Sans', sans-serif; 
 		}
@@ -22,22 +25,41 @@
 		}
 		.opcional {
 			font-size: 0.8em;
+			display: block;
 		}
 		.radio {
 			margin: 3% 0%;
-			font-size: 0.8em;
+			font-size: 0.9em;
 		}
 		.checkin-right {
-			margin-top: 25%;
+			display: inline-block;
+			margin-top: 9%;
+			float: right;
 			p {
-				font-size: 0.7em;
+				font-size: 0.8em;
 				text-align: right;
-				margin: 5.5% 0%;
 			}
+		}
+		.check-form {
+			display: inline-block;
 		}
 		textarea {
 			background: $light-silver-blue;
-			height: 15%;
-		}	
+			margin: 2% 0%;
+			width: 100%;
+			color: #555;
+			padding: 1% 2%;
+			font-size: 0.9em;
+		}
+		.btn-enviar {
+			margin: auto;
+		    display: block;
+		    background: black;
+		    color: #ffffff;
+		    border: 1px solid black;
+		    width: 40%;
+		    padding: 1%;
+		    border-radius: 3px;
+		}
 	}
 }
