@@ -49,7 +49,7 @@ mixin banner-columnistas(call, name, tittle)
 		.avatar
 			+img-avatar(call)
 		.info
-			h4=name
+			h4: a(href="columnistas.html")=name
 			span=tittle
 
 //SECCION NOTICIAS//
@@ -124,14 +124,14 @@ mixin blogueros(nombreblog)
 		.col-md-3
 			img(src="assets/image/img_blogueros.jpg", alt="")
 		.col-md-13.text-left
-			span Augusto Alvarez Rodrich
+			span: a(href="#blogs.html") Augusto Alvarez Rodrich
 			h6=nombreblog
 mixin impresa(tittle, link)
 	.row
 		.col-md-8
 			img.w-100.border-silver(src="assets/image/img_impreso_sd.jpg", alt="")
 		.col-md-8
-			.titular
+			.titular.text-left
 				span=tittle
 				a=link
 
