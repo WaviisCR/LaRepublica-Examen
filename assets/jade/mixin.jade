@@ -56,11 +56,11 @@ mixin banner-columnistas(call, name, tittle)
 mixin img-noticia(call)
 	case call
 		when "img-not-1"
-			img(src="assets/image/img_especiales.jpg", alt="noticia1")
+			img.w-100(src="assets/image/img_especiales.jpg", alt="noticia1")
 		when "img-not-2"
-			img(src="assets/image/img_especiales_aside.jpg", alt="noticia2")
+			img.w-100(src="assets/image/img_especiales_aside.jpg", alt="noticia2")
 mixin noticia(titular, call, descripcion)
-	.noticia
+	.noticia.border-silver
 		h3=titular
 		.img-noticia
 			+img-noticia(call)
