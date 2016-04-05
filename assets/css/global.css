@@ -1,98 +1,3 @@
-<<<<<<< HEAD
-/*
-Error: Invalid CSS after "				&": expected ";", was ":hover {"
-        on line 27 of sass/layout/_footer.scss
-        from line 7 of sass\global.scss
-
-22: 			list-style: none;
-23: 			a {
-24: 				color: #333;
-25: 				transition: 0.5s;
-26: 				font-size: 0.85em
-27: 				&:hover {
-28: 					text-decoration: none;
-29: 					color: $dark-red;
-30: 				}
-31: 			}
-32: 		}
-
-Backtrace:
-sass/layout/_footer.scss:27
-sass\global.scss:7
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:775:in `block in try_declaration'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1155:in `call'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1155:in `rethrow'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:780:in `try_declaration'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:709:in `declaration_or_ruleset'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:674:in `block_child'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:655:in `block'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:724:in `declaration_or_ruleset'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:674:in `block_child'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:655:in `block'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:724:in `declaration_or_ruleset'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:674:in `block_child'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:655:in `block'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:724:in `declaration_or_ruleset'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:674:in `block_child'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:655:in `block'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:663:in `block_contents'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:309:in `to_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:471:in `on_file_changed'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:328:in `block in watch'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `call'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"				&\": expected \";\", was \":hover {\"\A         on line 27 of sass/layout/_footer.scss\A         from line 7 of sass\global.scss\A \A 22: 			list-style: none;\A 23: 			a {\A 24: 				color: #333;\A 25: 				transition: 0.5s;\A 26: 				font-size: 0.85em\A 27: 				&:hover {\A 28: 					text-decoration: none;\A 29: 					color: $dark-red;\A 30: 				}\A 31: 			}\A 32: 		}"; }
-=======
 /* botones redes */
 p, a {
   font-family: 'PT Sans', sans-serif; }
@@ -313,7 +218,7 @@ footer {
   padding: 4% 0; }
   footer .border-right {
     border-right: 1px solid white;
-    padding: 15% 0; }
+    padding: 15% 0 11%; }
     footer .border-right .grupo-republica {
       margin: auto; }
   footer h4 {
@@ -356,6 +261,47 @@ footer {
   display: inline-block;
   width: 10.5%; }
 
+/*GLOBAL TITTLES*/
+#columnistas hr, #carlincatura hr, #impresa hr {
+  border: #D30505 3.5px solid; }
+#columnistas .tittle, #carlincatura .tittle, #impresa .tittle {
+  background-color: #D30505;
+  color: #ffffff; }
+
+#columnistas .tittle {
+  width: 25%;
+  margin-left: 36%;
+  margin-top: -3%; }
+
+#carlincatura .tittle {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: -9%;
+  padding: 0.5%; }
+
+#impresa .tittle {
+  width: 30%;
+  margin-left: 34%;
+  margin-top: -9%;
+  padding: 0.5%; }
+
+#foto-destacada hr, #especiales hr, #blogueros hr, #infografias hr {
+  border: silver 3.5px solid; }
+#foto-destacada .tittle, #especiales .tittle, #blogueros .tittle, #infografias .tittle {
+  background-color: silver;
+  color: #ffffff;
+  padding: 0.5%; }
+
+#foto-destacada .tittle, #blogueros .tittle {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: -9%; }
+
+#especiales .tittle, #infografias .tittle {
+  width: 28%;
+  margin-left: 35%;
+  margin-top: -9%; }
+
 /*COLUMNISTAS*/
 #columnistas
 .resize {
@@ -374,4 +320,3 @@ footer {
     color: orange; }
 
 /*# sourceMappingURL=global.css.map */
->>>>>>> 0b0b588a447caae1d92395ff23c35f1204fb61fe

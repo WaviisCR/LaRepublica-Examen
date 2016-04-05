@@ -3,7 +3,7 @@ footer {
 	padding: 4% 0;
 	.border-right {
 		border-right: 1px solid white;
-		padding: 15% 0;
+		padding: 15% 0 11%;
 		.grupo-republica {
 		margin: auto;
 		}
@@ -24,7 +24,7 @@ footer {
 		li {
 			list-style: none;
 			a {
-				color: #333;
+				color: $light-gray;
 				transition: 0.5s;
 				font-size: 0.85em;
 				&:hover {
