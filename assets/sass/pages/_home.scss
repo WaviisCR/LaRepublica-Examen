@@ -1,0 +1,92 @@
+/*GLOBAL TITTLES*/
+#columnistas, #carlincatura, #impresa {
+    hr{
+        border: $red 3.5px solid;
+    }
+    .tittle{
+    	background-color:$red;
+    	color:$white;
+    }
+}
+#columnistas{
+	.tittle{
+		@include custom(25%, 36%, -3%);
+	}
+}
+#carlincatura{
+	.tittle{
+		@include custom(40%, 30%, -9%);
+		padding: 0.5%;
+	}
+}
+#impresa{
+	.tittle{
+		@include custom(30%, 34%, -9%);
+		padding:0.5%;
+	}
+}
+
+#foto-destacada, #especiales, #blogueros, #infografias{
+	hr{
+        border: $silver 3.5px solid;
+    }
+    .tittle{
+    	background-color:$silver;
+    	color:$white;
+    	padding:0.5%;
+    }
+}
+#foto-destacada, #blogueros{
+	.tittle{
+		@include custom(40%, 30%, -9%);
+	}
+}
+#especiales, #infografias{
+	.tittle{
+		@include custom(28%, 35%, -9%)
+	}
+}
+
+/*COLUMNISTAS*/
+#home {
+	.tittle {
+		h1 {
+			font-weight: 700;
+    		font-size: 3.5em;
+    		text-align: center;
+    		font-family: 'PT Sans';
+    		color: $black;
+    	}
+	}
+}
+.box-titulares {
+	.titulo-imagen-1 {
+		@include imagen(54.5%);
+		h2 {
+			font-family: 'PT sans';
+			font-weight: 600;
+		}
+	}
+	.img-lossio{
+		margin-bottom: 4%;
+	}
+	.titulo-imagen-2 {
+		@include imagen(9.8%);
+		@include style;	
+	}
+	.titulo-imagen-3 {
+		@include imagen(61.6%);
+		@include style;	
+	}
+}
+#columnistas
+.resize {
+    width: 3.55em;
+}
+
+.redes {
+    @include redes;
+}
+.ultimas-noticias {
+	@include boxRedes;
+}

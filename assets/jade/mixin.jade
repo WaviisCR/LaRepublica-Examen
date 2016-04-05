@@ -40,7 +40,7 @@ mixin cdrprincipal(fecha, headline, call, tittlegrey, comentario)
 mixin img-avatar(call)
 	case call
 		when "a-1"
-			img.MVLL(src="assets/image/img-columnistas.jpg", alt="avatar-columnista")
+			img.resize(src="assets/image/img-columnistas.jpg", alt="avatar-columnista")
 		when "a-2"
 			img(src="assets/image/img_blogueros.jpg", alt="avatar-columnista")
 
@@ -49,7 +49,7 @@ mixin banner-columnistas(call, name, tittle)
 		.avatar
 			+img-avatar(call)
 		.info
-			h4=name
+			h4: a(href="columnistas.html")=name
 			span=tittle
 
 //SECCION NOTICIAS//
@@ -78,30 +78,119 @@ mixin img-ultima(call)
 			img.pull-left(src="assets/image/img_news_grid.jpg", alt="")
 mixin ultimas(date, titulo, call, subtitulo)
 	.mas-noticias.clearfix
-		h6=date
-		h5=titulo
+		p=date
+		h4=titulo
 		+img-ultima(call)
 		.info
 			span=subtitulo
 		.interaccion
-			.redes
-				a(href="#"): i.fa.fa-facebook
-				a(href="#"): i.fa.fa-twitter
-				a(href="#"): i.fa.fa-google
+			.redes2.box-shadow
+				a(href="#"): i.fa.fa-facebook.face
+				a(href="#"): i.fa.fa-twitter.twit
+				a(href="#"): i.fa.fa-google-plus.goo
 //ASIDE//
+mixin logo(call)
+	case  call
+		when "logo-1"
+			img(src="assets/image/logo_aweita.jpg", alt="")
+		when "logo-2"
+			img(src="assets/image/logo_libero.jpg", alt="")
+		when "logo-3"
+			img(src="assets/image/logo_popular.jpg", alt="")
+		when "logo-4"
+			img(src="assets/image/logo_wapa.jpg", alt="")
 mixin img-aweita(call, content)
 	case call
 		when "aw-1"
-			.img-aweita
-				img.pull-left(src="assets/image/img_aweita.jpg", alt="")
-				.noticia
-					p=content
+			.row
+				.col-md-6
+					img(src="assets/image/img_aweita.jpg", alt="")
+				.col-md-10
+					.noticia.text-left
+						p=content
 		when "aw-2"
-			.img-aweita
-				img.pull-left(src="assets/image/img_aweita.jpg", alt="")
-				.noticia
-					p=content
+			.row
+				.col-md-6
+					img(src="assets/image/img_fotodes.jpg", alt="")
+				.col-md-10.text-left
+					.noticia
+						p=content
+		when "popular-1"
+			.row
+				.col-md-6
+					img(src="assets/image/img_fotodes.jpg", alt="")
+				.col-md-10
+					.noticia.text-left
+						p=content
+		when "libero-1"
+			.row
+				.col-md-6
+					img.w-100(src="assets/image/img_video_destacado.jpg", alt="")
+				.col-md-10
+					.noticia.text-left
+						p=content
+		when "wapa-1"
+			.row
+				.col-md-6
+					img(src="assets/image/img_fotodes.jpg", alt="")
+				.col-md-10
+					.noticia.text-left
+						p=content
 mixin aside-section(content)
-	img.w-100(src="assets/image/nota_galeria_border.png", alt="border")
+	hr.custom
 	.tittle
 		h5=content
+mixin foto-des(call,content)
+	.foto-dest
+		+img-aweita(call)
+		h5=content
+mixin imagen-especiales(call)
+	case call
+		when "esp1"
+			img(src="assets/image/img_especiales_aside.jpg", alt="")
+mixin especiales(call, info)
+	.especiales
+		.especiales-img
+			+imagen-especiales(call)
+			.img-info-esp
+				h5=info
+mixin blogueros(nombreblog)
+	.row
+		.col-md-3
+			img(src="assets/image/img_blogueros.jpg", alt="")
+		.col-md-13.text-left
+			span: a(href="#blogs.html") Augusto Alvarez Rodrich
+			h6=nombreblog
+mixin impresa(tittle, link)
+	.row
+		.col-md-8
+			img.w-100.border-silver(src="assets/image/img_impreso_sd.jpg", alt="")
+		.col-md-8
+			.titular.text-left
+				span=tittle
+				a=link
+
+//FOOTER//
+mixin footer(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18,text19,text20,text21)
+	ul
+		li: a(href="#")= text1
+		li: a(href="#")= text2
+		li: a(href="#")= text3
+		li: a(href="#")= text4
+		li: a(href="#")= text5
+		li: a(href="#")= text6
+		li: a(href="#")= text7
+		li: a(href="#")= text8
+		li: a(href="#")= text9
+		li: a(href="#")= text10
+		li: a(href="#")= text11
+		li: a(href="#")= text12
+		li: a(href="#")= text13
+		li: a(href="#")= text14
+		li: a(href="#")= text15
+		li: a(href="#")= text16
+		li: a(href="#")= text17
+		li: a(href="#")= text18
+		li: a(href="#")= text29
+		li: a(href="#")= text20
+		li: a(href="#")= text21
