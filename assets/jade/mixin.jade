@@ -80,14 +80,20 @@ mixin ultimas(date, titulo, call, subtitulo)
 	.mas-noticias.clearfix
 		p=date
 		h4=titulo
-		+img-ultima(call)
-		.info
-			span=subtitulo
-		.interaccion
-			.redes2.box-shadow
-				a(href="#"): i.fa.fa-facebook.face
-				a(href="#"): i.fa.fa-twitter.twit
-				a(href="#"): i.fa.fa-google-plus.goo
+		.col-md-4
+			+img-ultima(call)
+		.col-md-12
+			.info
+				span=subtitulo
+			.interaccion
+				.redes2.box-shadow
+
+					a(href="#"): i.fa.fa-facebook.face
+					a(href="#"): i.fa.fa-twitter.twit
+					a(href="#"): i.fa.fa-google-plus.goo
+				.redes-icon
+					img(src="assets/image/ico_comment.jpg")
+
 //ASIDE//
 mixin logo(call)
 	case  call

@@ -9,6 +9,21 @@
     }
 }
 #columnistas{
+	background-color: $silver-light;
+	margin: 2% 0%;
+	padding-bottom: 2%;
+	.columnista {
+		width: 16%;
+	}
+	h4 {
+		font-size: 0.9em;
+		a {
+			color: $black;	
+		}	
+	}
+	span {
+		font-size: 0.7em,
+	}
 	.tittle{
 		@include custom(25%, 36%, -3%);
 	}
@@ -89,4 +104,7 @@
 }
 .ultimas-noticias {
 	@include boxRedes;
+}
+.noticia {
+	margin: 2%;
 }

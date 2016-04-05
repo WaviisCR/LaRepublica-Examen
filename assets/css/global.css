@@ -268,10 +268,22 @@ footer {
   background-color: #D30505;
   color: #ffffff; }
 
-#columnistas .tittle {
-  width: 25%;
-  margin-left: 36%;
-  margin-top: -3%; }
+#columnistas {
+  background-color: #F2F2F2;
+  margin: 2% 0%;
+  padding-bottom: 2%; }
+  #columnistas .columnista {
+    width: 16%; }
+  #columnistas h4 {
+    font-size: 0.9em; }
+    #columnistas h4 a {
+      color: black; }
+  #columnistas span {
+    font-size: 0.7em; }
+  #columnistas .tittle {
+    width: 25%;
+    margin-left: 36%;
+    margin-top: -3%; }
 
 #carlincatura .tittle {
   width: 40%;
@@ -393,5 +405,8 @@ footer {
   border-bottom: 5px solid #D30505;
   color: #D30505;
   padding: 0.3% 0.9%; }
+
+.noticia {
+  margin: 2%; }
 
 /*# sourceMappingURL=global.css.map */
