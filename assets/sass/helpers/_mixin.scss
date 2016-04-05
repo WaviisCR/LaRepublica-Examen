@@ -27,3 +27,26 @@
     margin-left: $m-left;
     margin-top: $m-top;
 }
+@mixin imagen($top){
+    position: absolute;
+    top: $top;
+    color: white;
+    font-weight: 600;
+    padding: 20% 7% 1%;
+    width: 95.7%;
+    text-shadow: 2px 2px 2px $black;
+    background: linear-gradient(to bottom, transparent 0%, #1D1D1D)
+}
+@mixin style {
+    p {
+            font-size: 1.3em;
+    }
+    a{
+        color: white;
+        transition: 0.5s;
+        &:hover {
+            color: $dark-red;
+            text-decoration: none;
+        }
+    }
+}
