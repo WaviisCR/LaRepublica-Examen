@@ -287,13 +287,16 @@ h3, h4, h5, h6 {
     font-size: 0.9em; }
   .contact-body form .checkin-right {
     display: inline-block;
-    margin-top: 9%;
+    margin-top: 9.5%;
     float: right; }
     .contact-body form .checkin-right p {
       font-size: 0.8em;
-      text-align: right; }
+      text-align: right;
+      margin-bottom: 16px; }
   .contact-body form .check-form {
     display: inline-block; }
+    .contact-body form .check-form .radio label {
+      font-size: 0.7em; }
   .contact-body form textarea {
     background: #E0E0E0;
     margin: 2% 0%;
