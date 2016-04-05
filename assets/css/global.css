@@ -23,8 +23,8 @@ h3, h4, h5, h6 {
   padding: 5% 3%; }
 
 .m-t-b-1 {
-  margin-top: 1%;
-  margin-bottom: 1%; }
+  margin-top: 2%;
+  margin-bottom: 2%; }
 
 .encabezado h2 {
   font-size: 2.7em;
@@ -316,7 +316,7 @@ footer {
 
 .box-titulares .titulo-imagen-1 {
   position: absolute;
-  top: 54.5%;
+  top: 56.5%;
   color: white;
   font-weight: 600;
   padding: 20% 7% 2%;
@@ -330,7 +330,7 @@ footer {
   margin-bottom: 4%; }
 .box-titulares .titulo-imagen-2 {
   position: absolute;
-  top: 9.8%;
+  top: 10.8%;
   color: white;
   font-weight: 600;
   padding: 20% 7% 2%;
@@ -347,7 +347,7 @@ footer {
       text-decoration: none; }
 .box-titulares .titulo-imagen-3 {
   position: absolute;
-  top: 61.6%;
+  top: 62.6%;
   color: white;
   font-weight: 600;
   padding: 20% 7% 2%;

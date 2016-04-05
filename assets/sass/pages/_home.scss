@@ -61,7 +61,7 @@
 }
 .box-titulares {
 	.titulo-imagen-1 {
-		@include imagen(54.5%);
+		@include imagen(56.5%);
 		h2 {
 			font-family: 'PT sans';
 			font-weight: 600;
@@ -71,11 +71,11 @@
 		margin-bottom: 4%;
 	}
 	.titulo-imagen-2 {
-		@include imagen(9.8%);
+		@include imagen(10.8%);
 		@include style;	
 	}
 	.titulo-imagen-3 {
-		@include imagen(61.6%);
+		@include imagen(62.6%);
 		@include style;	
 	}
 }
