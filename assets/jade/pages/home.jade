@@ -129,10 +129,11 @@ html(lang='es-PE')
 								.suscribirse.bckg-dots
 									.bckg-white
 										img(src="assets/image/img_sucribe.png", alt="")
-										span Suscribete
-										p a nuestro boletin
-										input
-										button.btn Suscribirse
+										.contenido
+											span Suscribete
+											p a nuestro boletin
+											input
+											button.btn Suscribirse
 								.aweita.border-silver.text-center
 									.logo
 										img(src="assets/image/logo_aweita.jpg", alt="")
@@ -166,9 +167,23 @@ html(lang='es-PE')
 								hr
 								#blogueros
 									+aside-section("NUESTROS BLOGUEROS")
+									+blogueros("Charlie Hebdo, historia que no debe repetirse")
+									+blogueros("El unico Pulpin es HUmala")
+									+blogueros("Dios ha muerto... tengo las manos")
+									+blogueros("EL unico Pulpin es Humala")
+									+blogueros("Charlie Hebdo, historia que no debe repetirse")
+									+blogueros("EL unico Pulpin es Humala")
+									+blogueros("Dios ha muerto... tengo las manos")
+									+blogueros("Charlie Hebdo, historia que no debe repetirse")
 								#impresa
 									+aside-section("EDICION IMPRESA")
+									img.w-100.border-silver(src="assets/image/img_impreso_sd_prominent.jpg", alt="")
+									+impresa("Extorsionan a menores en colegios", "La respublica - Norte")
+									+impresa("Lluvias en Arequipa inundan casas y causan caos en calles", "La respublica - Sur")
+									+impresa("El ojo de oblitas", "Domingo")
 								#infografias
 									+aside-section("INFOGRAFIAS")
+									+especiales("esp1", "Lorem ipsum dolor sit amet, consectetur adipisicing elit.")
+									+especiales("esp1", "Lorem ipsum dolor sit amet, consectetur adipisicing elit.")
 								
 					.col-md-2

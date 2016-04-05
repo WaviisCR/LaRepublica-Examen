@@ -119,6 +119,21 @@ mixin especiales(call, info)
 			+imagen-especiales(call)
 			.img-info-esp
 				h5=info
+mixin blogueros(nombreblog)
+	.row
+		.col-md-3
+			img(src="assets/image/img_blogueros.jpg", alt="")
+		.col-md-13.text-left
+			span Augusto Alvarez Rodrich
+			h6=nombreblog
+mixin impresa(tittle, link)
+	.row
+		.col-md-8
+			img.w-100.border-silver(src="assets/image/img_impreso_sd.jpg", alt="")
+		.col-md-8
+			.titular
+				span=tittle
+				a=link
 
 //FOOTER//
 mixin footer(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18,text19,text20,text21)
