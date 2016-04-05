@@ -61,7 +61,7 @@
 }
 .box-titulares {
 	.titulo-imagen-1 {
-		@include imagen(55.4%);
+		@include imagen(54.5%);
 		h2 {
 			font-family: 'PT sans';
 			font-weight: 600;
@@ -86,4 +86,7 @@
 
 .redes {
     @include redes;
+}
+.ultimas-noticias {
+	@include boxRedes;
 }

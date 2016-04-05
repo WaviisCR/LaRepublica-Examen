@@ -312,10 +312,10 @@ footer {
 
 .box-titulares .titulo-imagen-1 {
   position: absolute;
-  top: 55.4%;
+  top: 54.5%;
   color: white;
   font-weight: 600;
-  padding: 20% 7% 1%;
+  padding: 20% 7% 2%;
   width: 95.7%;
   text-shadow: 2px 2px 2px black;
   background: linear-gradient(to bottom, transparent 0%, #1D1D1D); }
@@ -329,7 +329,7 @@ footer {
   top: 9.8%;
   color: white;
   font-weight: 600;
-  padding: 20% 7% 1%;
+  padding: 20% 7% 2%;
   width: 95.7%;
   text-shadow: 2px 2px 2px black;
   background: linear-gradient(to bottom, transparent 0%, #1D1D1D); }
@@ -346,7 +346,7 @@ footer {
   top: 61.6%;
   color: white;
   font-weight: 600;
-  padding: 20% 7% 1%;
+  padding: 20% 7% 2%;
   width: 95.7%;
   text-shadow: 2px 2px 2px black;
   background: linear-gradient(to bottom, transparent 0%, #1D1D1D); }
@@ -374,5 +374,24 @@ footer {
   .redes i:nth-child(5) {
     margin: 0;
     color: orange; }
+
+.ultimas-noticias .face {
+  border-radius: 2px;
+  background: #F2F2F2;
+  border-bottom: 5px solid #2E6296;
+  padding: 0.3% 1.4%; }
+.ultimas-noticias .twit {
+  border-radius: 2px;
+  background: #F2F2F2;
+  border-bottom: 5px solid #4AB4D6;
+  color: #4AB4D6;
+  padding: 0.3% 0.9%;
+  margin: 0 0.3em; }
+.ultimas-noticias .goo {
+  border-radius: 2px;
+  background: #F2F2F2;
+  border-bottom: 5px solid #D30505;
+  color: #D30505;
+  padding: 0.3% 1%; }
 
 /*# sourceMappingURL=global.css.map */
