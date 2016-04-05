@@ -1,0 +1,43 @@
+.contact-body {
+	.encabezado {
+		h2 {
+			text-align: center;
+			margin-bottom: 0px;
+		}
+		img {
+			display: none;
+		}
+	}
+	.desarrollo{
+		padding: 0% 2%;
+	}
+	form {
+		padding: 4% 0%;
+		h3 {
+			font-family: 'Open Sans', sans-serif; 
+		}
+		input {
+			background: $light-silver-blue;
+			margin-top: 2%;
+		}
+		.opcional {
+			font-size: 0.8em;
+		}
+		.radio {
+			margin: 3% 0%;
+			font-size: 0.8em;
+		}
+		.checkin-right {
+			margin-top: 25%;
+			p {
+				font-size: 0.7em;
+				text-align: right;
+				margin: 5.5% 0%;
+			}
+		}
+		textarea {
+			background: $light-silver-blue;
+			height: 15%;
+		}	
+	}
+}

@@ -27,13 +27,17 @@
 
 
 
+.img-aside {
+		width: 100%;
+}
 
 .encabezado {
 			h2 {
-			font-size: 2.7em;
+			font-size: 2.9em;
 			font-weight: bold;
 			color: $black;
 			margin-bottom: 3%;
+			font-family: 'PT Sans', sans-serif;
 			}
 			p {
 				font-family: 'Oswald', sans-serif;
@@ -72,6 +76,7 @@
 .singlegrey {
 		background: $light-silver-blue;
 		padding: 5% 4%;
+		border: 1px solid $light-silver-blue;
 		img {
 			border: 2px solid $white;
 		}
