@@ -27,3 +27,49 @@
     margin-left: $m-left;
     margin-top: $m-top;
 }
+@mixin imagen($top){
+    position: absolute;
+    top: $top;
+    color: white;
+    font-weight: 600;
+    padding: 20% 7% 2%;
+    width: 95.7%;
+    text-shadow: 2px 2px 2px $black;
+    background: linear-gradient(to bottom, transparent 0%, #1D1D1D)
+}
+@mixin style {
+    p {
+            font-size: 1.3em;
+    }
+    a{
+        color: white;
+        transition: 0.5s;
+        &:hover {
+            color: $dark-red;
+            text-decoration: none;
+        }
+    }
+}
+@mixin boxRedes {
+    .face {
+        border-radius: 2px;
+        background: $silver-light;
+        border-bottom: 5px solid $blue;
+        padding: 0.3% 1.4%;
+    }
+    .twit {
+        border-radius: 2px;
+        background: $silver-light;
+        border-bottom: 5px solid $light-blue;
+        color: $light-blue;
+        padding: 0.3% 0.9%;
+        margin: 0 0.3em;
+    }
+    .goo {
+        border-radius: 2px;
+        background: $silver-light;
+        border-bottom: 5px solid $dark-red;
+        color: $dark-red;
+        padding: 0.3% 1%; 
+    }
+}

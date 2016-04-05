@@ -48,6 +48,37 @@
 }
 
 /*COLUMNISTAS*/
+#home {
+	.tittle {
+		h1 {
+			font-weight: 700;
+    		font-size: 3.5em;
+    		text-align: center;
+    		font-family: 'PT Sans';
+    		color: $black;
+    	}
+	}
+}
+.box-titulares {
+	.titulo-imagen-1 {
+		@include imagen(54.5%);
+		h2 {
+			font-family: 'PT sans';
+			font-weight: 600;
+		}
+	}
+	.img-lossio{
+		margin-bottom: 4%;
+	}
+	.titulo-imagen-2 {
+		@include imagen(9.8%);
+		@include style;	
+	}
+	.titulo-imagen-3 {
+		@include imagen(61.6%);
+		@include style;	
+	}
+}
 #columnistas
 .resize {
     width: 3.55em;
@@ -55,4 +86,7 @@
 
 .redes {
     @include redes;
+}
+.ultimas-noticias {
+	@include boxRedes;
 }
